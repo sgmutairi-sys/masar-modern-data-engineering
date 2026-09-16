@@ -1,9 +1,125 @@
-<table dir="ltr" width="100%"><tr><td width="50%" dir="ltr" lang="en" align="left" valign="top"><p>SDAIA Academy · Learner materials</p><h1>Modern Data Engineering<br>for AI Systems</h1><h2>MASAR · Mini-Lakehouse</h2><p><strong>Meaad Al-Marri</strong><br>SDA-DSC-214 · Five days · Eight cumulative labs</p></td><td width="50%" dir="rtl" lang="ar" align="right" valign="top"><p>أكاديمية سدايا · مواد المتدرب</p><h1>هندسة البيانات الحديثة<br>لأنظمة الذكاء الاصطناعي</h1><h2>مسار · بيئة بيانات مصغرة</h2><p><strong>ميعاد المري</strong><br>SDA-DSC-214 · خمسة أيام · ثمانية لابات تراكمية</p></td></tr></table>
+# مسار المصغّر — مشروع هندسة البيانات الحديثة
 
-<table dir="ltr" width="100%"><tr><td width="50%" dir="ltr" lang="en" align="left" valign="top"><h2>What you will build</h2><p>Turn small synthetic trip, driver and location feeds into a reliable data pipeline: preserve the source, build Silver, manage changes, receive events, check quality and deliver reporting and AI-ready tables.</p><p><strong>The labs are your final project.</strong> Complete them in sequence; no separate final assignment is added.</p></td><td width="50%" dir="rtl" lang="ar" align="right" valign="top"><h2>ماذا ستبني؟</h2><p>حوّل ملفات اصطناعية صغيرة للرحلات والسائقين والمواقع إلى خط بيانات موثوق: احفظ المصدر، وابنِ Silver، وأدر التغييرات، واستقبل الأحداث، وافحص الجودة، ثم جهّز جداول التقارير والذكاء الاصطناعي.</p><p><strong>اللابات هي مشروعك النهائي.</strong> أكملها بالتتابع دون تكليف نهائي منفصل.</p></td></tr></table>
+**إعداد: سلطان المطيري**
 
-<table dir="ltr" width="100%"><tr><td width="50%" dir="ltr" lang="en" align="left" valign="top"><h2>Your five-day path</h2><p><strong><a href="day01/README.md">Day 1</a></strong> · Foundations and Bronze</p><p><strong><a href="day02/README.md">Day 2</a></strong> · ELT and Silver</p><p><strong><a href="day03/README.md">Day 3</a></strong> · Delta transactions and maintenance</p><p><strong><a href="day04/README.md">Day 4</a></strong> · Streaming, quality and governance</p><p><strong><a href="day05/README.md">Day 5</a></strong> · Gold, AI/BI and project submission</p></td><td width="50%" dir="rtl" lang="ar" align="right" valign="top"><h2>مسارك في الأيام الخمسة</h2><p><strong><a href="day01/README.md">اليوم 1</a></strong> · الأساسيات وطبقة Bronze</p><p><strong><a href="day02/README.md">اليوم 2</a></strong> · التحويل وبناء Silver</p><p><strong><a href="day03/README.md">اليوم 3</a></strong> · معاملات Delta والصيانة</p><p><strong><a href="day04/README.md">اليوم 4</a></strong> · التدفق والجودة والحوكمة</p><p><strong><a href="day05/README.md">اليوم 5</a></strong> · طبقة Gold ومخرجات AI وBI وتسليم المشروع</p></td></tr></table>
+[فرع المشروع في GitHub](https://github.com/sgmutairi-sys/masar-modern-data-engineering/tree/develop) · [خطوات الاستكمال](FINISH_SUBMISSION_AR.md)
 
-<table dir="ltr" width="100%"><tr><td width="50%" dir="ltr" lang="en" align="left" valign="top"><h2>Before you start</h2><p><a href="docs/SETUP.md">Prepare your environment</a> · <a href="TRAINING_CONTENT.md">Learning outcomes</a> · <a href="data/DICTIONARY.md">Data dictionary</a> · <a href="project/SUBMISSION.md">Submission guide</a>.</p><p>Use the same 72 base trips, 6 drivers and 216 base location events throughout the course, with the supplied late/replay/correction fixtures. Data and code are shared once; each day contains its own learning materials. No paid API or GPU is required.</p></td><td width="50%" dir="rtl" lang="ar" align="right" valign="top"><h2>قبل أن تبدأ</h2><p><a href="docs/SETUP.md">جهّز بيئتك</a> · <a href="TRAINING_CONTENT.md">مخرجات التعلم</a> · <a href="data/DICTIONARY.md">قاموس البيانات</a> · <a href="project/SUBMISSION.md">دليل التسليم</a>.</p><p>استخدم الرحلات الأساسية الـ72 والسائقين الستة وأحداث المواقع الـ216 طوال الدورة، مع ملفات التأخر والإعادة والتصحيح المرفقة. تُحفظ البيانات والأكواد المشتركة مرة واحدة، ويضم كل يوم مواده التعليمية. لا تحتاج إلى API مدفوع أو GPU.</p></td></tr></table>
+أُنجز هذا المشروع ضمن **برنامج هندسة البيانات الحديثة لأنظمة الذكاء الاصطناعي (SDA-DSC-214)** لدى [أكاديمية سدايا](https://github.com/SDAIAAcademy). **#SDAIAAcademy**
 
-<table dir="ltr" width="100%"><tr><td width="50%" dir="ltr" lang="en" align="left" valign="top"><p><a href="docs/ADMINISTRATION.md">Participation and support</a> · <a href="docs/GIT_WORKFLOW.md">Git guide</a> · <a href="docs/TROUBLESHOOTING.md">Troubleshooting</a> · <a href="docs/VERIFICATION.md">Execution record</a> · <a href="https://github.com/SDAIAAcademy">SDAIA Academy</a></p><p>At final submission, name the programme and <strong>SDAIA Academy</strong> in your project README, link to <a href="https://github.com/SDAIAAcademy">the Academy</a>, and include <code>#SDAIAAcademy</code> in the README and your submission message. Follow <a href="project/SUBMISSION.md">the submission guide</a>. Optional extensions and repository stars are not passing conditions. Follow the organizer’s announced attendance, deadline and submission rules.</p></td><td width="50%" dir="rtl" lang="ar" align="right" valign="top"><p><a href="docs/ADMINISTRATION.md">المشاركة والدعم</a> · <a href="docs/GIT_WORKFLOW.md">دليل Git</a> · <a href="docs/TROUBLESHOOTING.md">معالجة الأخطاء</a> · <a href="docs/VERIFICATION.md">سجل التنفيذ</a> · <a href="https://github.com/SDAIAAcademy">أكاديمية سدايا</a></p><p>عند التسليم النهائي، اذكر اسم البرنامج و<strong>أكاديمية سدايا</strong> في README مشروعك، وأدرج <a href="https://github.com/SDAIAAcademy">رابط الأكاديمية</a> والوسم <code>#SDAIAAcademy</code> داخل README وفي رسالة التسليم. اتبع <a href="project/SUBMISSION.md">دليل التسليم</a>. الامتدادات الاختيارية ونجوم المستودع ليست شروط نجاح. اتبع ما تعلنه الجهة المنظمة بشأن الحضور والمواعيد وقناة التسليم.</p></td></tr></table>
+بُني المشروع على مواد الدورة وقوالبها التي أعدّتها **ميعاد المري** في [مستودع الدورة](https://github.com/almiyead-rgb/masar-modern-data-engineering). يصف هذا التوثيق نتائج حزمة التشغيل المقدمة للمراجعة، ويفصل النتائج المرصودة عن حدود التنفيذ. حُفظ تعريف الدورة الأصلي في [COURSE_README.md](COURSE_README.md)، وتبقى نسب المصادر وملفات الترخيص الأصلية محفوظة في المستودع.
+
+## فكرة المشروع
+
+خط بيانات تعليمي لفريق عمليات افتراضي يستقبل الرحلات والسائقين وأحداث المواقع. يستقبل البيانات في Bronze، ويوحدها ويعالج تكرارها وتصحيحاتها في Silver، ويفحص جودتها، ثم ينتج جداول Gold ومخرجات للتقارير وخصائص تاريخية للذكاء الاصطناعي. اللابات 01–08 أجزاء المشروع التراكمي نفسه.
+
+## البيانات
+
+البيانات **اصطناعية بالكامل**، من المجموعة الثابتة `MASAR_SMALL_V1` في `data/masar-small-v1/`. تضم البداية 72 رحلة و6 سائقين و216 حدث موقع؛ ثم تُضاف الدفعات التعليمية المتأخرة والتصحيحات وإعادة الإرسال وفق ترتيب اللابات. لا تمثل المعرفات أو المواقع أشخاصًا أو رحلات حقيقية.
+
+بصمة سجل البيانات SHA-256 التي تتفق عليها التقارير:
+
+```text
+20a7e45bed2980b9394c10e8532da3b9f40f614366bb2df26a88610253e768e3
+```
+
+## البيئة المستخدمة وحدود توثيقها
+
+تشير مسارات التشغيل في تقارير الصيانة إلى Google Colab تحت `/content/masar-modern-data-engineering`. البيئة المعتمدة في دليل الدورة Ubuntu مع Python 3.11 وJava 17؛ أما تهيئة Colab فكانت معالجة خاصة بهذه الجلسة، وليست اختبارًا عامًا لاعتماد Colab.
+
+| المكون | الإصدار | أساس التوثيق |
+|---|---|---|
+| Python | 3.11.13 | مرصود في تقرير محاولة dbt |
+| Java | 17.0.20 | مرصود في فحص البيئة المحفوظ لمحاولة dbt |
+| PySpark | 3.5.8 | مثبت في تقارير المحرك وفحص dbt |
+| Delta Lake | 3.3.3 | سجل معاملات اليوم الثالث وفحص dbt |
+| dbt-core / dbt-spark | 1.9.8 / 1.9.1 | مرصودان في تقرير dbt |
+| Great Expectations | 1.7.0 | مرصود في تقارير GX |
+| Kafka / kafka-python | 4.0.2 / 2.2.15 | إصدارات إعداد الدورة وحل التهيئة؛ التقرير يثبت تنفيذ Kafka دون تسجيل إصدار الوسيط |
+| pandas | 2.2.3 | الإصدار المحدد في متطلبات اليوم الرابع؛ لم يُرفق فحص مستقل لإصداره |
+
+لم تُرفق مواصفات CPU والذاكرة الدقيقة أو SHA لتعديل الكود وقت التشغيل. لا يُستنتج أي منهما من اسم مساحة العمل أو معرّف تشغيل اللاب.
+
+## المعمارية
+
+```mermaid
+flowchart TD
+    A["مصادر اصطناعية ثابتة"] --> B["Bronze: وصول ومصدر محفوظ"]
+    B --> C["Silver: أنواع ومفاتيح وتصحيحات"]
+    A --> K["Kafka: أحداث وإعادات إرسال"]
+    K --> E["لقطة أحداث فريدة"]
+    C --> Q["فحص الجودة والعزل"]
+    Q --> G["إصدار Gold معتمد محليًا"]
+    E --> G
+    G --> BI["جداول BI وملفات CSV"]
+    G --> AI["خصائص تاريخية وأهداف غير مرصودة"]
+```
+
+ينفّذ مسار dbt المقارن التحويلات في مساحة منفصلة عن Silver التراكمية. تفاصيل الاختيارات في [DECISIONS.md](DECISIONS.md)، وحدود الصلاحيات والاحتفاظ في [GOVERNANCE.md](GOVERNANCE.md).
+
+## ترتيب التشغيل
+
+ابدأ من مستودع الدورة الكامل، واتبع [إعداد البيئة](docs/SETUP.md). بعد تفعيل بيئة Python 3.11 وتوفر Java 17:
+
+```bash
+python -m pip install -r requirements-course.txt -r requirements-day01.txt
+python -m pip check
+python -m jupyterlab
+```
+
+| الترتيب | الدفتر | اللابات | الملاحظات |
+|---|---|---|---|
+| 1 | `day01/STUDENT.ipynb` | 01 و02 | [LAB01](LAB01_NOTES.md)، [LAB02](LAB02_NOTES.md) |
+| 2 | `day02/STUDENT.ipynb` | 03a و03b وdbt، ضمن اللاب 03 | [LAB03](LAB03_NOTES.md) |
+| 3 | `day03/STUDENT.ipynb` | 04a و04b، ضمن اللاب 04 | [LAB04](LAB04_NOTES.md) |
+| 4 | `day04/STUDENT.ipynb` | 05 و06 | [LAB05](LAB05_NOTES.md)، [LAB06](LAB06_NOTES.md) |
+| 5 | `day05/STUDENT.ipynb` | 07 و08 | [LAB07](LAB07_NOTES.md)، [LAB08](LAB08_NOTES.md) |
+
+قبل اليوم الرابع، يتطلب مسار الدورة على المضيف المجهز تشغيل Kafka وفق [إعداد اليوم الرابع](day04/SETUP.md):
+
+```bash
+docker compose -f infrastructure/kafka/compose.yaml up -d --wait --wait-timeout 120
+python scripts/run_day04.py --preflight
+```
+
+تُنفّذ هذه الأوامر في بيئة المضيف المجهز. في تشغيل Colab محل المراجعة أُعدّ وسيط Java محلي، ثم شُغّل تمرين التدفق في عملية Python جديدة لتحميل موصل Spark–Kafka منذ البداية. يجب الاحتفاظ بخلايا هذا التعديل داخل دفتر اليوم الرابع المنفذ؛ نسخة الدفتر الموجودة حاليًا في المستودع مرجعية؛ يلزم استبدالها بنسخة تشغيل Colab الفعلية. لا تعاود اليوم الثاني على جدول Silver المصحح لليوم الثالث، ولا تعاود نشر رسائل قديمة لمجرد إعادة إنشاء التقارير.
+
+## النتائج الفعلية
+
+| المرحلة | النتيجة المرصودة |
+|---|---|
+| Bronze | 144 سجل وصول للرحلات تمثل 72 رحلة فريدة؛ 6 سائقين و216 حدثًا |
+| Silver بعد الوصول المتأخر | 75 رحلة؛ إجمالي 1,875.60 ريالًا |
+| Silver بعد التصحيح | 75 رحلة؛ إجمالي 1,880.60 ريالًا؛ `SYN_T0001` من 18.00 إلى 23.00 |
+| dbt | `PASSED_DBT_NATIVE`؛ أعداد المراحل 72، 72، 75، 75؛ ستة نماذج وثلاثة مصادر موثقة بحسب سجل الأمر |
+| Kafka | سجلات الوصول 216، 216، 218، 219؛ الأحداث الفريدة 216، 216، 216، 217 |
+| الجودة | 82 صفًا في المرشح المختلط؛ عزل 7 وإعادة فحص 75 صفًا قبل الاعتماد |
+| Gold وBI | ثمانية جداول؛ 75 رحلة و217 حدثًا مرتبطًا؛ مجموع مدد الرحلات 95,400 ثانية |
+| AI | ثلاثة صفوف خصائص؛ ثلاثة أهداف بحالة `UNOBSERVED` وقيم أهداف فارغة |
+| الأداء المحلي | وسيط CSV: 0.311422 ثانية؛ وسيط Delta v0: 2.133406 ثانية لعينة متساوية من 72 صفًا |
+
+| المدينة | الرحلات | الأجور بالريال | أحداث المواقع الفريدة المرتبطة |
+|---|---:|---:|---:|
+| الرياض | 25 | 585.00 | 73 |
+| جدة | 25 | 625.20 | 72 |
+| الدمام | 25 | 670.40 | 72 |
+| **الإجمالي** | **75** | **1,880.60** | **217** |
+
+توجد تفاصيل الأدلة ومعرفات التشغيل في [RUN_EVIDENCE.md](RUN_EVIDENCE.md)، والقياسات وحدودها في [BENCHMARKS.md](BENCHMARKS.md). تمت مطابقة 107 مراجع لبصمات الملفات داخل الأرشيف، وملفات CSV الثمانية مع بصماتها وأعدادها. هذه مراجعة للملفات المقدمة، وليست إعادة تنفيذ مستقلة للمحركات.
+
+## المخرجات المحفوظة
+
+[فهرس حزمة المخرجات وبصمتها وروابط الوصول](OUTPUT_ARTIFACT.md). يضم الأرشيف الأساسي `day05_handoff.zip` لقطات Delta والتقارير والإصدارات وملفات CSV ونقاط تحقق Spark. لا يضم دفاتر المستخدم أو ملاحظاته أو مساحة dbt المنفصلة أو تخزين وسيط Kafka.
+
+**حالة رابط المشاركة:** لم يُقدّم بعد؛ يجب إضافة الرابط المعتمد في `OUTPUT_ARTIFACT.md` قبل التسليم. تبقى الأرشيفات و`outputs/` خارج تعديلات Git الاعتيادية وفق تعليمات الدورة.
+
+## حدود المشروع وحالة الاستكمال
+
+- أثبتت التقارير تشغيل المسارات التعليمية وتساوي النتائج في السيناريوهات المحددة؛ لم تثبت نشرًا إنتاجيًا أو توسعًا موزعًا أو تحمل أعطال وسيط Kafka.
+- تقليل ملفات Delta من 4 إلى 1 لا يثبت تحسن زمن الاستعلام. القياس المحلي لا يثبت تكلفة سحابية أو تفوق صيغة تخزين عمومًا.
+- ملفات الخصائص والأهداف ليست نموذجًا مدربًا، ولم تُحسب دقة تنبؤ، ولم يُثبت تشغيل موصل Power BI.
+- تُعتمد جداول الإصدار كلٌ بمعاملته؛ مؤشر الإصدار ليس معاملة ذرية واحدة للجداول الثمانية.
+- لا تزال نسخ الدفاتر الخمس المنفذة، وملفات توثيق dbt المولدة، ومخرجات فحص المصدر ونموذج التكلفة لليوم الأول، ورابط المخرجات ومعرّف التعديل النهائي بعد استكمال الملفات مطلوبة في حزمة التسليم. التفاصيل في [SUBMISSION_STATUS.md](SUBMISSION_STATUS.md).
+
+## المراجع والنسب
+
+[مواد الدورة — ميعاد المري](https://github.com/almiyead-rgb/masar-modern-data-engineering)، [قوالب الدورة](templates/LAB_NOTES.md)، [تعريفات مخرجات البيانات](day05/DATA_PRODUCTS.md)، [المصادر الأصلية](SOURCES.md)، [دليل التسليم](project/SUBMISSION.md). وثائق الملاحظات والقرارات هنا مشتقة من القوالب الأصلية ومعبأة بالأدلة المقدمة، مع التصريح بما لم يصل ضمن الحزمة.
