@@ -24,7 +24,23 @@
     "gps_event_count": "0",
     "duration_seconds": "0"
   },
-  "executed_student_notebooks_verified": false,
+  "submitted_notebook_integrity": {
+    "original_preserved": true,
+    "daily_excerpts_verified": 5,
+    "source_code_and_outputs_preserved": true,
+    "cells_without_saved_execution": [
+      {
+        "day": 4,
+        "source_cell_index_zero_based": 72
+      },
+      {
+        "day": 5,
+        "source_cell_index_zero_based": 77
+      }
+    ],
+    "all_code_cells_have_saved_execution": false,
+    "scope": "INTEGRITY_CHECK_OF_SAVED_NOTEBOOKS_NOT_REEXECUTION"
+  },
   "clean_full_pipeline_rerun": false,
   "status": "ARTIFACT_CHECKS_PASSED_SUBMISSION_STILL_INCOMPLETE"
 }

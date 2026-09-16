@@ -1,0 +1,210 @@
+{
+  "scope": "REVIEW_AND_FAITHFUL_EXTRACTION_OF_USER_SUPPLIED_NOTEBOOK_NOT_REEXECUTION",
+  "original_uploaded_filename": "Another_copy_of_Sultan_Training_Project.ipynb",
+  "original_sha256": "1da9dccfb789915523298a19af87d37ad15571bc71149fb62814aa902c910ddd",
+  "original_published_path": "notebooks/Sultan_Training_Project.ipynb",
+  "original_cell_count": 86,
+  "original_code_cell_count": 39,
+  "original_preserved_byte_for_byte": true,
+  "inherited_course_execution_metadata_not_used_as_student_evidence": true,
+  "notebook_source_and_outputs_unchanged_in_excerpts": true,
+  "days": [
+    {
+      "day": 1,
+      "path": "day01/STUDENT.ipynb",
+      "source_cell_start_zero_based": 0,
+      "source_cell_end_exclusive": 44,
+      "original_cell_count": 44,
+      "code_cells": 18,
+      "code_cells_with_outputs": 18,
+      "original_code_cells_without_saved_execution": [],
+      "cleared_inherited_execution_metadata_cells": [
+        1,
+        4,
+        6,
+        8,
+        10,
+        14,
+        16,
+        18,
+        20,
+        24,
+        26,
+        28,
+        30,
+        32,
+        36,
+        38,
+        40,
+        43
+      ],
+      "sha256": "805f520110833937d4c3004086d352530960da98c3f6043548c5124c4d03065d"
+    },
+    {
+      "day": 2,
+      "path": "day02/STUDENT.ipynb",
+      "source_cell_start_zero_based": 44,
+      "source_cell_end_exclusive": 56,
+      "original_cell_count": 12,
+      "code_cells": 6,
+      "code_cells_with_outputs": 6,
+      "original_code_cells_without_saved_execution": [],
+      "cleared_inherited_execution_metadata_cells": [
+        46,
+        48,
+        50,
+        53,
+        55
+      ],
+      "sha256": "245c0490c070ab70549871118acdea4920c8732c444dc492205f6c52cc5e1160"
+    },
+    {
+      "day": 3,
+      "path": "day03/STUDENT.ipynb",
+      "source_cell_start_zero_based": 56,
+      "source_cell_end_exclusive": 65,
+      "original_cell_count": 9,
+      "code_cells": 4,
+      "code_cells_with_outputs": 4,
+      "original_code_cells_without_saved_execution": [],
+      "cleared_inherited_execution_metadata_cells": [
+        58,
+        60,
+        62,
+        64
+      ],
+      "sha256": "4d55a70742f6c643a4d4280aea309160e85ff11b2577c2048d57a252259deebd"
+    },
+    {
+      "day": 4,
+      "path": "day04/STUDENT.ipynb",
+      "source_cell_start_zero_based": 65,
+      "source_cell_end_exclusive": 75,
+      "original_cell_count": 10,
+      "code_cells": 5,
+      "code_cells_with_outputs": 4,
+      "original_code_cells_without_saved_execution": [
+        72
+      ],
+      "cleared_inherited_execution_metadata_cells": [
+        67,
+        72,
+        74
+      ],
+      "sha256": "1620bd37a05f98c9542e8f9195520575f754e27b84b6e574e9ed73dde94d79fa"
+    },
+    {
+      "day": 5,
+      "path": "day05/STUDENT.ipynb",
+      "source_cell_start_zero_based": 75,
+      "source_cell_end_exclusive": 84,
+      "original_cell_count": 9,
+      "code_cells": 4,
+      "code_cells_with_outputs": 3,
+      "original_code_cells_without_saved_execution": [
+        77
+      ],
+      "cleared_inherited_execution_metadata_cells": [
+        77,
+        79,
+        81,
+        83
+      ],
+      "sha256": "c38de30cc3a0aa7d00b1bb937a81058a4594762eaf0fdba49849ebfe9fdc5a27"
+    }
+  ],
+  "report_comparisons": [
+    {
+      "evidence": "Source inspection checks",
+      "original_cell_index_zero_based": 10,
+      "matches_saved_report": true
+    },
+    {
+      "evidence": "Bronze counts and checks",
+      "original_cell_index_zero_based": 20,
+      "matches_saved_report": true
+    },
+    {
+      "evidence": "Cost assumptions",
+      "original_cell_index_zero_based": 26,
+      "matches_saved_report": true
+    },
+    {
+      "evidence": "Cost totals",
+      "original_cell_index_zero_based": 26,
+      "matches_saved_report": true
+    },
+    {
+      "evidence": "Cost checks",
+      "original_cell_index_zero_based": 30,
+      "matches_saved_report": true
+    },
+    {
+      "evidence": "Benchmark aggregate",
+      "original_cell_index_zero_based": 40,
+      "matches_saved_report": true
+    },
+    {
+      "evidence": "Benchmark samples",
+      "original_cell_index_zero_based": 40,
+      "matches_saved_report": true
+    },
+    {
+      "evidence": "day02_staging_latest.json",
+      "original_cell_index_zero_based": 48,
+      "matches_saved_report": true
+    },
+    {
+      "evidence": "day02_silver.json",
+      "original_cell_index_zero_based": 50,
+      "matches_saved_report": true
+    },
+    {
+      "evidence": "day03_transactions.json",
+      "original_cell_index_zero_based": 60,
+      "matches_saved_report": true
+    },
+    {
+      "evidence": "day03_maintenance_latest.json",
+      "original_cell_index_zero_based": 62,
+      "matches_saved_report": true
+    },
+    {
+      "evidence": "day04_stream_latest.json",
+      "original_cell_index_zero_based": 70,
+      "matches_saved_report": true
+    },
+    {
+      "evidence": "day05_recovery.json",
+      "original_cell_index_zero_based": 79,
+      "matches_saved_report": true
+    },
+    {
+      "evidence": "day05_serving_latest.json",
+      "original_cell_index_zero_based": 81,
+      "matches_saved_report": true
+    }
+  ],
+  "unassigned_collection_cells_zero_based": [
+    84,
+    85
+  ],
+  "missing_saved_execution": [
+    {
+      "source_cell_index_zero_based": 72,
+      "day": 4,
+      "purpose": "Lab 06 quality validation",
+      "outputs": 0,
+      "separate_saved_GX_reports_available": true
+    },
+    {
+      "source_cell_index_zero_based": 77,
+      "day": 5,
+      "purpose": "Day 5 setup",
+      "outputs": 0,
+      "later_lab_outputs_available": true
+    }
+  ],
+  "all_notebook_code_cells_have_saved_execution": false,
+  "clean_full_pipeline_rerun": false
+}

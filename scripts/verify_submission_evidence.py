@@ -10,7 +10,36 @@ ROOT = Path(__file__).resolve().parents[1]
 def read_json(path):
     return json.loads((ROOT / path).read_text(encoding='utf-8'))
 
+
+def verify_notebook_extracts():
+    audit = read_json('reports/review/notebook_submission_review.json')
+    master_path = ROOT / audit['original_published_path']
+    if hashlib.sha256(master_path.read_bytes()).hexdigest() != audit['original_sha256']:
+        raise ValueError('Original notebook hash mismatch')
+    master = json.loads(master_path.read_text(encoding='utf-8'))
+    missing = []
+    for day in audit['days']:
+        path = ROOT / day['path']
+        if hashlib.sha256(path.read_bytes()).hexdigest() != day['sha256']:
+            raise ValueError('Daily notebook hash mismatch: ' + day['path'])
+        excerpt = json.loads(path.read_text(encoding='utf-8'))
+        originals = master['cells'][day['source_cell_start_zero_based']:day['source_cell_end_exclusive']]
+        if len(excerpt['cells']) != len(originals) + 1:
+            raise ValueError('Daily cell count mismatch: ' + day['path'])
+        for index, (original, retained) in enumerate(zip(originals, excerpt['cells'][1:])):
+            for field in ['cell_type', 'source', 'outputs', 'execution_count', 'attachments']:
+                if original.get(field) != retained.get(field):
+                    raise ValueError('Cell content changed: ' + day['path'])
+            if original['cell_type'] == 'code' and original.get('execution_count') is None:
+                missing.append({'day': day['day'], 'source_cell_index_zero_based': day['source_cell_start_zero_based'] + index})
+    return {'original_preserved': True, 'daily_excerpts_verified': len(audit['days']),
+            'source_code_and_outputs_preserved': True,
+            'cells_without_saved_execution': missing,
+            'all_code_cells_have_saved_execution': not missing,
+            'scope': 'INTEGRITY_CHECK_OF_SAVED_NOTEBOOKS_NOT_REEXECUTION'}
+
 def main():
+    notebook_review = verify_notebook_extracts()
     provenance = read_json('reports/provenance.json')
     for item in provenance['files']:
         data = (ROOT / item['repository_path']).read_bytes()
@@ -49,9 +78,10 @@ def main():
             'verified_original_artifacts': len(provenance['files']),
             'source_files_verified': len(source['files']), 'exports_verified': len(tables),
             'actual': actual, 'expected': expected, 'differences': differences,
-            'executed_student_notebooks_verified': False,
+            'submitted_notebook_integrity': notebook_review,
             'clean_full_pipeline_rerun': False,
             'status': 'ARTIFACT_CHECKS_PASSED_SUBMISSION_STILL_INCOMPLETE'}
 
 if __name__ == '__main__':
     print(json.dumps(main(), ensure_ascii=False, indent=2))
+
