@@ -2,7 +2,156 @@
   "scope": "EXTRACT_FROM_SAVED_POLICY_REPORT_NOT_NEW_GX_OR_DELTA_RUN",
   "source_report": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/mixed_policy.json",
   "source_sha256": "e9039930d09feac0d617f444ab2dd06b913786c997d7c076242d7bfc811a2eb6",
-  "rows": 7,
+  "row_count": 7,
+  "rows": [
+    {
+      "candidate_row": 1,
+      "reason_codes": [
+        "MISSING_TRIP_ID"
+      ],
+      "row": {
+        "city": "Riyadh",
+        "distance_km": "3.50",
+        "driver_id": "SYN_D001",
+        "driver_rating": "4.3",
+        "duration_seconds": 480,
+        "end_utc": "2026-06-01T03:08:00Z",
+        "fare_sar": "18.00",
+        "source_revision": 1,
+        "start_utc": "2026-06-01T03:00:00Z",
+        "trip_date_local": "2026-06-01",
+        "trip_id": null,
+        "vehicle_type": "sedan"
+      },
+      "trip_id": null
+    },
+    {
+      "candidate_row": 2,
+      "reason_codes": [
+        "INVALID_FARE"
+      ],
+      "row": {
+        "city": "Riyadh",
+        "distance_km": "3.85",
+        "driver_id": "SYN_D002",
+        "driver_rating": "4.4",
+        "duration_seconds": 660,
+        "end_utc": "2026-06-01T05:11:00Z",
+        "fare_sar": "-5.00",
+        "source_revision": 1,
+        "start_utc": "2026-06-01T05:00:00Z",
+        "trip_date_local": "2026-06-01",
+        "trip_id": "SYN_BAD002",
+        "vehicle_type": "suv"
+      },
+      "trip_id": "SYN_BAD002"
+    },
+    {
+      "candidate_row": 3,
+      "reason_codes": [
+        "UNKNOWN_DRIVER"
+      ],
+      "row": {
+        "city": "Riyadh",
+        "distance_km": "4.20",
+        "driver_id": "SYN_D999",
+        "driver_rating": null,
+        "duration_seconds": 840,
+        "end_utc": "2026-06-01T07:14:00Z",
+        "fare_sar": "20.50",
+        "source_revision": 1,
+        "start_utc": "2026-06-01T07:00:00Z",
+        "trip_date_local": "2026-06-01",
+        "trip_id": "SYN_BAD003",
+        "vehicle_type": null
+      },
+      "trip_id": "SYN_BAD003"
+    },
+    {
+      "candidate_row": 4,
+      "reason_codes": [
+        "INVALID_TIMESTAMP"
+      ],
+      "row": {
+        "city": "Riyadh",
+        "distance_km": "4.55",
+        "driver_id": "SYN_D002",
+        "driver_rating": "4.4",
+        "duration_seconds": null,
+        "end_utc": "2026-06-01T09:17:00Z",
+        "fare_sar": "21.75",
+        "source_revision": 1,
+        "start_utc": null,
+        "trip_date_local": null,
+        "trip_id": "SYN_BAD004",
+        "vehicle_type": "suv"
+      },
+      "trip_id": "SYN_BAD004"
+    },
+    {
+      "candidate_row": 5,
+      "reason_codes": [
+        "INVALID_DURATION"
+      ],
+      "row": {
+        "city": "Riyadh",
+        "distance_km": "4.90",
+        "driver_id": "SYN_D001",
+        "driver_rating": "4.3",
+        "duration_seconds": -28800,
+        "end_utc": "2026-06-01T03:00:00Z",
+        "fare_sar": "23.00",
+        "source_revision": 1,
+        "start_utc": "2026-06-01T11:00:00Z",
+        "trip_date_local": "2026-06-01",
+        "trip_id": "SYN_BAD005",
+        "vehicle_type": "sedan"
+      },
+      "trip_id": "SYN_BAD005"
+    },
+    {
+      "candidate_row": 6,
+      "reason_codes": [
+        "INVALID_DISTANCE"
+      ],
+      "row": {
+        "city": "Riyadh",
+        "distance_km": "0.00",
+        "driver_id": "SYN_D002",
+        "driver_rating": "4.4",
+        "duration_seconds": 1380,
+        "end_utc": "2026-06-01T13:23:00Z",
+        "fare_sar": "24.25",
+        "source_revision": 1,
+        "start_utc": "2026-06-01T13:00:00Z",
+        "trip_date_local": "2026-06-01",
+        "trip_id": "SYN_BAD006",
+        "vehicle_type": "suv"
+      },
+      "trip_id": "SYN_BAD006"
+    },
+    {
+      "candidate_row": 7,
+      "reason_codes": [
+        "INVALID_CITY"
+      ],
+      "row": {
+        "city": null,
+        "distance_km": "5.60",
+        "driver_id": "SYN_D001",
+        "driver_rating": "4.3",
+        "duration_seconds": 1560,
+        "end_utc": "2026-06-01T15:26:00Z",
+        "fare_sar": "25.50",
+        "source_revision": 1,
+        "start_utc": "2026-06-01T15:00:00Z",
+        "trip_date_local": "2026-06-01",
+        "trip_id": "SYN_BAD007",
+        "vehicle_type": "sedan"
+      },
+      "trip_id": "SYN_BAD007"
+    }
+  ],
   "reason_counts": {
     "INVALID_CITY": 1,
     "INVALID_DISTANCE": 1,
