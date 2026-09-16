@@ -1,10 +1,10 @@
 {
   "scope": "REVIEW_AND_FAITHFUL_EXTRACTION_OF_USER_SUPPLIED_NOTEBOOK_NOT_REEXECUTION",
-  "original_uploaded_filename": "Another_copy_of_Sultan_Training_Project.ipynb",
-  "original_sha256": "1da9dccfb789915523298a19af87d37ad15571bc71149fb62814aa902c910ddd",
+  "original_uploaded_filename": "Another_copy_of_Sultan_Training_Project (2).ipynb",
+  "original_sha256": "cd561e17dadcf6cd3d73d8634bbfc3d76fdf1779471ad01882bb417174791a00",
   "original_published_path": "notebooks/Sultan_Training_Project.ipynb",
-  "original_cell_count": 86,
-  "original_code_cell_count": 39,
+  "original_cell_count": 87,
+  "original_code_cell_count": 40,
   "original_preserved_byte_for_byte": true,
   "inherited_course_execution_metadata_not_used_as_student_evidence": true,
   "notebook_source_and_outputs_unchanged_in_excerpts": true,
@@ -38,7 +38,7 @@
         40,
         43
       ],
-      "sha256": "805f520110833937d4c3004086d352530960da98c3f6043548c5124c4d03065d"
+      "sha256": "4866d6b234df859d76d6e73fed39575b4dd3b414d11cf3140b3e4b476f45b581"
     },
     {
       "day": 2,
@@ -56,7 +56,7 @@
         53,
         55
       ],
-      "sha256": "245c0490c070ab70549871118acdea4920c8732c444dc492205f6c52cc5e1160"
+      "sha256": "09aeaecec9900e46ab16ce2f3e324a391dc1eda510f7893fed1ff0e62c161f85"
     },
     {
       "day": 3,
@@ -73,44 +73,41 @@
         62,
         64
       ],
-      "sha256": "4d55a70742f6c643a4d4280aea309160e85ff11b2577c2048d57a252259deebd"
+      "sha256": "056d82c4202f99c9601e06fcb38a75bf75d267f00ef184cd70c4187d6bd686df"
     },
     {
       "day": 4,
       "path": "day04/STUDENT.ipynb",
       "source_cell_start_zero_based": 65,
-      "source_cell_end_exclusive": 75,
-      "original_cell_count": 10,
-      "code_cells": 5,
-      "code_cells_with_outputs": 4,
-      "original_code_cells_without_saved_execution": [
-        72
-      ],
+      "source_cell_end_exclusive": 76,
+      "original_cell_count": 11,
+      "code_cells": 6,
+      "code_cells_with_outputs": 6,
+      "original_code_cells_without_saved_execution": [],
       "cleared_inherited_execution_metadata_cells": [
         67,
-        72,
-        74
+        75
       ],
-      "sha256": "1620bd37a05f98c9542e8f9195520575f754e27b84b6e574e9ed73dde94d79fa"
+      "sha256": "1c193f45bc2e880739bc6fbf885124fb74d2989f98ed62062926f921dd4d4977"
     },
     {
       "day": 5,
       "path": "day05/STUDENT.ipynb",
-      "source_cell_start_zero_based": 75,
-      "source_cell_end_exclusive": 84,
+      "source_cell_start_zero_based": 76,
+      "source_cell_end_exclusive": 85,
       "original_cell_count": 9,
       "code_cells": 4,
       "code_cells_with_outputs": 3,
       "original_code_cells_without_saved_execution": [
-        77
+        78
       ],
       "cleared_inherited_execution_metadata_cells": [
-        77,
-        79,
-        81,
-        83
+        78,
+        80,
+        82,
+        84
       ],
-      "sha256": "c38de30cc3a0aa7d00b1bb937a81058a4594762eaf0fdba49849ebfe9fdc5a27"
+      "sha256": "7c400638b9e8b12cd8a25e56c07bca1528bd8e51fd49dddcb6f2d1e5b9cff917"
     }
   ],
   "report_comparisons": [
@@ -176,29 +173,22 @@
     },
     {
       "evidence": "day05_recovery.json",
-      "original_cell_index_zero_based": 79,
+      "original_cell_index_zero_based": 80,
       "matches_saved_report": true
     },
     {
       "evidence": "day05_serving_latest.json",
-      "original_cell_index_zero_based": 81,
+      "original_cell_index_zero_based": 82,
       "matches_saved_report": true
     }
   ],
   "unassigned_collection_cells_zero_based": [
-    84,
-    85
+    85,
+    86
   ],
   "missing_saved_execution": [
     {
-      "source_cell_index_zero_based": 72,
-      "day": 4,
-      "purpose": "Lab 06 quality validation",
-      "outputs": 0,
-      "separate_saved_GX_reports_available": true
-    },
-    {
-      "source_cell_index_zero_based": 77,
+      "source_cell_index_zero_based": 78,
       "day": 5,
       "purpose": "Day 5 setup",
       "outputs": 0,
@@ -206,5 +196,9 @@
     }
   ],
   "all_notebook_code_cells_have_saved_execution": false,
-  "clean_full_pipeline_rerun": false
+  "clean_full_pipeline_rerun": false,
+  "previous_uploaded_notebook_sha256": "1da9dccfb789915523298a19af87d37ad15571bc71149fb62814aa902c910ddd",
+  "previous_notebook_available_in_git_commit": "a08f7c92f1929ea2b7b2f73842a00b8bfa30628a",
+  "update_description": "Replaced the previously unexecuted Lab 06 cell with a successful restore cell and a successful NEW quality run; all other original cell sources, outputs and execution counts are unchanged.",
+  "quality_rerun_notebook_evidence": "reports/review/quality_rerun_notebook.json"
 }

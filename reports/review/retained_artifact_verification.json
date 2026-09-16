@@ -30,12 +30,8 @@
     "source_code_and_outputs_preserved": true,
     "cells_without_saved_execution": [
       {
-        "day": 4,
-        "source_cell_index_zero_based": 72
-      },
-      {
         "day": 5,
-        "source_cell_index_zero_based": 77
+        "source_cell_index_zero_based": 78
       }
     ],
     "all_code_cells_have_saved_execution": false,

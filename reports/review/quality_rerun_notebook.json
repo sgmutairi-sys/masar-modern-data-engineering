@@ -1,0 +1,36 @@
+{
+  "scope": "EXTRACTION_FROM_UPLOADED_NOTEBOOK_OUTPUT_NOT_A_NATIVE_QUALITY_JSON_REPORT",
+  "notebook": "notebooks/Sultan_Training_Project.ipynb",
+  "notebook_sha256": "cd561e17dadcf6cd3d73d8634bbfc3d76fdf1779471ad01882bb417174791a00",
+  "setup_source_cell_index_zero_based": 72,
+  "quality_source_cell_index_zero_based": 73,
+  "saved_execution_count": 4,
+  "restored_file_count_printed": 504,
+  "python_version_printed": "3.11.13",
+  "quality_run_id_from_printed_candidate_path": "6801045da5ed4b1ca794844ac78b38bc",
+  "saved_native_scope_and_checks": {
+    "scope": "DAY04_NATIVE_QUALITY",
+    "checks": {
+      "trusted_and_rechecked_pass_gx": true,
+      "mixed_candidate_fails_gx": true,
+      "native_mixed_counts": true,
+      "native_reasons_match_reference": true,
+      "failed_candidate_not_promoted": true,
+      "quarantine_delta_readback": true,
+      "approved_readback_same_business_contents": true,
+      "source_silver_untouched": true,
+      "data_docs_exist_for_all_three_cases": true
+    }
+  },
+  "quarantine_rows_printed": 7,
+  "approved_rows_printed": 75,
+  "new_handoff_filename_printed": "day04_quality_recovery_20260916T180618912333Z.zip",
+  "new_handoff_received": false,
+  "new_native_quality_json_received": false,
+  "new_GX_artifacts_independently_verified": false,
+  "new_Delta_files_independently_verified": false,
+  "previous_quality_artifacts_retained_under_run_id": "876c88d851db4dd1b33d70f6ffa1b546",
+  "historical_notebook_cells_preserved_exactly": true,
+  "all_other_labs_rerun": false,
+  "clean_full_pipeline_rerun": false
+}
