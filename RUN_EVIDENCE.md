@@ -1,6 +1,6 @@
 # فهرس أدلة التشغيل والتحقق
 
-المصدر: `masar_submission_review.zip` المقدم للمراجعة. مساحة العمل الرئيسية `outputs/day01_bronze_jmbv27q9`، ومساحة dbt المستقلة `outputs/dbt_validation_nh58vl02`. داخل `day05_handoff.zip` تبدأ المسارات بـ`outputs/` كما هي في المشروع. تعني مسارات `reports/...` أدناه مسارات نسبية إلى مساحة العمل الرئيسية، ما لم يذكر خلاف ذلك.
+المصدران: `masar_submission_review.zip` و`masar_remaining_evidence.zip` المقدمان للمراجعة. النسخ الصغيرة المتاحة في GitHub مفهرسة في [reports/README.md](reports/README.md)، مع مساراتها الأصلية وبصماتها في [reports/provenance.json](reports/provenance.json). مساحة العمل الرئيسية `outputs/day01_bronze_jmbv27q9`، ومساحة dbt المستقلة `outputs/dbt_validation_nh58vl02`. داخل `day05_handoff.zip` تبدأ المسارات بـ`outputs/` كما هي في المشروع. تعني مسارات `reports/...` أدناه مسارات نسبية إلى مساحة العمل الرئيسية، ما لم يذكر خلاف ذلك.
 
 ## نطاق المراجعة
 
@@ -55,8 +55,8 @@
 
 التقرير `outputs/dbt_validation_nh58vl02/reports/dbt_attempt.json` يسجل `PASSED_DBT_NATIVE` و`dbt_executed=true` و`engine_executed=true`. أُجريت المراحل الأربع و17 أمرًا بحسب السجل، ومنها توثيق ستة نماذج وثلاثة مصادر.
 
-المتاح في حزمة المراجعة هو التقرير ولقطات الأعمال وتقرير Bronze لمساحة dbt. لم تصل ملفات `dbt/commands/documentation/target/index.html` و`manifest.json` و`catalog.json` أو مجلدات نتائج أوامر dbt الكاملة؛ لا تشملها حزمة اليوم الخامس. يجب إرفاق ملف انتقال اليوم الثاني أو مساحة dbt الناجحة الكاملة. وجود `complete_course_verified=false` يوضح أن هذا التقرير وحده ليس اعتمادًا للدورة كاملة.
+وصلت الحزمة المكملة وبداخلها أرشيف اليوم الثاني ومساحة dbt الناجحة. تطابق `dbt_attempt.json` بالبايت مع التقرير السابق. أُتيح التوثيق المولد ونتائج الأوامر في [reports/dbt](reports/dbt). تتضمن كل مرحلة build أربعة سيناريوهات منفصلة؛ في كل منها ستة نماذج ناجحة و23 اختبارًا ناجحًا، ولكل بوابة قبل الدمج 13 اختبارًا ناجحًا. وجود `complete_course_verified=false` يوضح أن تقرير dbt وحده ليس اعتمادًا للدورة كاملة.
 
 ## أدلة لم تصل ضمن الحزمة
 
-الدفاتر الخمسة بعد تشغيل المستخدم، و`source_inspection.json` و`cost_model_result.json` لليوم الأول، وملفات dbt المولدة، وSHA الكود وقت التشغيل. عدم وجودها في هذه الحزمة لا يثبت أنها لم تُنفذ؛ تجميع المراجعة السابق لم يشمل جميع مساراتها. راجع [حالة التسليم](SUBMISSION_STATUS.md).
+وصل فحص المصدر ونموذج التكلفة وملفات dbt المولدة. لا تزال الدفاتر الخمسة بعد تشغيل المستخدم وSHA الكود وقت ذلك التشغيل غير متاحين. فحص الأدلة الحالي ليس إعادة تشغيل للمحركات. راجع [حالة التسليم](SUBMISSION_STATUS.md).
