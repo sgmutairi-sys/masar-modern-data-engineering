@@ -1,0 +1,13 @@
+{
+  "committed_release_exists": false,
+  "complete_lab_success": false,
+  "engine_started": true,
+  "error_type": "InjectedFailure",
+  "message": "Deliberate failure after table 1",
+  "previous_pointer_preserved": true,
+  "run_id": "80b105e7d60d48508afdc098f54f5401",
+  "scope": "DAY05_GOLD_FAILURE",
+  "tables_written": [
+    "gold.zone_hourly_demand"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "bi_summary": [
+    {
+      "total_fare_sar": "670.40",
+      "trip_count": 25,
+      "zone_key": "Z_DAMMAM"
+    },
+    {
+      "total_fare_sar": "625.20",
+      "trip_count": 25,
+      "zone_key": "Z_JEDDAH"
+    },
+    {
+      "total_fare_sar": "585.00",
+      "trip_count": 25,
+      "zone_key": "Z_RIYADH"
+    }
+  ],
+  "checks": {
+    "ai.zone_hourly_features_schema_and_keys": true,
+    "ai.zone_hourly_labels_schema_and_keys": true,
+    "bi.dim_date_schema_and_keys": true,
+    "bi.dim_driver_schema_and_keys": true,
+    "bi.dim_zone_schema_and_keys": true,
+    "bi.fact_trips_schema_and_keys": true,
+    "events_aggregated_before_join": true,
+    "fact_grain_75": true,
+    "feature_availability_checked": true,
+    "feature_label_keys_aligned": true,
+    "foreign_keys_valid": true,
+    "gold.driver_daily_schema_and_keys": true,
+    "gold.zone_hourly_demand_schema_and_keys": true,
+    "gold_fact_totals_match": true,
+    "group_grains_reconcile": true,
+    "labels_not_fabricated": true
+  },
+  "csv_null_representation": "empty field",
+  "dataset_manifest_sha256": "20a7e45bed2980b9394c10e8532da3b9f40f614366bb2df26a88610253e768e3",
+  "engine_executed": true,
+  "exports": {
+    "ai.zone_hourly_features": {
+      "path": "reports/serving/94dd2c8cdf9e4d83837f3c318ad337d5/ai_zone_hourly_features.csv",
+      "rows": 3,
+      "sha256": "0bce91681e3db5c2ab7d8b5e2db8b833cb3f81e2f240ee256153a1d90612a176"
+    },
+    "ai.zone_hourly_labels": {
+      "path": "reports/serving/94dd2c8cdf9e4d83837f3c318ad337d5/ai_zone_hourly_labels.csv",
+      "rows": 3,
+      "sha256": "61129cd8f14c3de65286d40f5257a012bbbdfd5e1ab25aa53eb4a4de1b43423b"
+    },
+    "bi.dim_date": {
+      "path": "reports/serving/94dd2c8cdf9e4d83837f3c318ad337d5/bi_dim_date.csv",
+      "rows": 3,
+      "sha256": "b933df8ba2caad9d2337123b5a8a45ce07b4d31273dcb0e3950389ac5620ccf9"
+    },
+    "bi.dim_driver": {
+      "path": "reports/serving/94dd2c8cdf9e4d83837f3c318ad337d5/bi_dim_driver.csv",
+      "rows": 6,
+      "sha256": "0c4b737144b0415155174831a5ccb5f60fbc697d0eb498330dde7e70db81c0e5"
+    },
+    "bi.dim_zone": {
+      "path": "reports/serving/94dd2c8cdf9e4d83837f3c318ad337d5/bi_dim_zone.csv",
+      "rows": 3,
+      "sha256": "11c1fc64c1d1dc199edbc8e325f170367de9773602f504384a2b292628273b0e"
+    },
+    "bi.fact_trips": {
+      "path": "reports/serving/94dd2c8cdf9e4d83837f3c318ad337d5/bi_fact_trips.csv",
+      "rows": 75,
+      "sha256": "16c8ac0b82e90f98bc52b9d2f946a5b811c84b5dc8f9049e9485a37c0beed918"
+    },
+    "gold.driver_daily": {
+      "path": "reports/serving/94dd2c8cdf9e4d83837f3c318ad337d5/gold_driver_daily.csv",
+      "rows": 18,
+      "sha256": "1d4413d637e06d22498d48b9bf6c80f24df86179160a3cfc05a5ad65f8c2ff3a"
+    },
+    "gold.zone_hourly_demand": {
+      "path": "reports/serving/94dd2c8cdf9e4d83837f3c318ad337d5/gold_zone_hourly_demand.csv",
+      "rows": 75,
+      "sha256": "fa7c7885994664e2cb68ca897eed700e4951f4820255484fb538f3caaf9bb464"
+    }
+  },
+  "feature_inputs": [
+    "zone_key",
+    "completed_trips_24h",
+    "avg_duration_seconds_24h",
+    "history_available"
+  ],
+  "label_status": "UNOBSERVED_NOT_ZERO",
+  "not_proven": [
+    "model training or accuracy",
+    "Power BI connector execution",
+    "public deployment",
+    "full course approval"
+  ],
+  "run_id": "94dd2c8cdf9e4d83837f3c318ad337d5",
+  "scope": "DAY05_NATIVE_SERVING",
+  "source_release_id": "6a5c31f6be704c46b0365b3a37b9fbbf"
+}

@@ -1,0 +1,666 @@
+{
+  "artifacts": {
+    "compact_copy": {
+      "commits": [
+        {
+          "path": "sandbox/day03/compact_52e35050c1ca48c8a7e12ef7405cc142/_delta_log/00000000000000000000.json",
+          "sha256": "48cfdf7bd697eb2a9bb172b19d79e9efeec0f3da05c53a8e48456e017f4067cf"
+        },
+        {
+          "path": "sandbox/day03/compact_52e35050c1ca48c8a7e12ef7405cc142/_delta_log/00000000000000000001.json",
+          "sha256": "293b852df012e6abb2594e21f7164e12adf25c597cdb5e5d8764972c43133f17"
+        }
+      ],
+      "data_files": [
+        {
+          "path": "sandbox/day03/compact_52e35050c1ca48c8a7e12ef7405cc142/part-00000-bd0e69a3-ecaf-46d8-86db-b22b6488b164-c000.snappy.parquet",
+          "sha256": "7218c875dcd5d783707e3e15e8a8fc22a889caae192cb671f8f65dde332f51a2"
+        },
+        {
+          "path": "sandbox/day03/compact_52e35050c1ca48c8a7e12ef7405cc142/part-00000-e45d077d-a442-440d-88bd-302053182808-c000.snappy.parquet",
+          "sha256": "90bbb6f3d13d7e7aee99c10d8388cb51bd4f4881fcc21c58dd0a3250b1f4d173"
+        },
+        {
+          "path": "sandbox/day03/compact_52e35050c1ca48c8a7e12ef7405cc142/part-00001-b3d72516-d8a0-4ce0-b78e-4b14b3926bf2-c000.snappy.parquet",
+          "sha256": "86f7bfe7530de73680b8d6542cf7d85c42f60a7a6bef8c117f1e29cc319435dd"
+        },
+        {
+          "path": "sandbox/day03/compact_52e35050c1ca48c8a7e12ef7405cc142/part-00002-81f07b10-f964-4e04-a127-1931c858c62d-c000.snappy.parquet",
+          "sha256": "f38375fad9b7a3fd4518cd2f615b58b931e52701c82ec0ecdf07afc93a29f470"
+        },
+        {
+          "path": "sandbox/day03/compact_52e35050c1ca48c8a7e12ef7405cc142/part-00003-1c493668-4b4f-44e1-8598-40de86c5d2ca-c000.snappy.parquet",
+          "sha256": "a2f324757760e5d5bdad2f3d07fc7e081b93c8cf5c718af4b063549721e96420"
+        }
+      ]
+    },
+    "recovery_copy": {
+      "commits": [
+        {
+          "path": "sandbox/day03/recovery_cb1422ab6f6046fc9a8a32a2b42fb153/_delta_log/00000000000000000000.json",
+          "sha256": "efee26a33b6acde3178171c20277615eff1844a91a85c2d6f4144d4c459dd7ae"
+        },
+        {
+          "path": "sandbox/day03/recovery_cb1422ab6f6046fc9a8a32a2b42fb153/_delta_log/00000000000000000001.json",
+          "sha256": "cf17c44002da11251741671735f6515cd04a970165ba4deab3479124ba9c4ca2"
+        },
+        {
+          "path": "sandbox/day03/recovery_cb1422ab6f6046fc9a8a32a2b42fb153/_delta_log/00000000000000000002.json",
+          "sha256": "4a803e426f7adcb086f2419f1b44354277025b00f6a7e94fdedd07f4976116af"
+        }
+      ],
+      "data_files": [
+        {
+          "path": "sandbox/day03/recovery_cb1422ab6f6046fc9a8a32a2b42fb153/_delta_log/00000000000000000002.checkpoint.parquet",
+          "sha256": "e400cb2f4b45cbb15884cf6699c03f004658792f791f8e696802d2cd2181055c"
+        },
+        {
+          "path": "sandbox/day03/recovery_cb1422ab6f6046fc9a8a32a2b42fb153/part-00000-3ac65bbf-96e5-4abc-a6d5-5406d2fe6e08-c000.snappy.parquet",
+          "sha256": "77f75531396297dc9bc9202c74b2731d1613abf595a0203f20f2a07594d43910"
+        },
+        {
+          "path": "sandbox/day03/recovery_cb1422ab6f6046fc9a8a32a2b42fb153/part-00000-da7779ba-fead-4754-8b1f-63b62e1440bc-c000.snappy.parquet",
+          "sha256": "1f894b1d7a2654b639a3a87be4099924eba0520442fffd37a84e637b60c3be78"
+        }
+      ]
+    },
+    "schema_copy": {
+      "commits": [
+        {
+          "path": "sandbox/day03/schema_e60cb818e7fd4686b3e5aa98aa71f071/_delta_log/00000000000000000000.json",
+          "sha256": "19dd95459f4aa45cfd802ef0f25ecdf37d7ae198c4d7b89faeaf26eb488f01b4"
+        },
+        {
+          "path": "sandbox/day03/schema_e60cb818e7fd4686b3e5aa98aa71f071/_delta_log/00000000000000000001.json",
+          "sha256": "3089aef3b96968a84b392053bd45f80b951a0da089920f3ed2430a3acdbbea16"
+        }
+      ],
+      "data_files": [
+        {
+          "path": "sandbox/day03/schema_e60cb818e7fd4686b3e5aa98aa71f071/part-00000-1be66596-de29-43b8-844f-72a7076c3064-c000.snappy.parquet",
+          "sha256": "6f323589dcc9528ccdd94ade58b5a6537cac4122fcffcc635dc2e1ca41923c7c"
+        },
+        {
+          "path": "sandbox/day03/schema_e60cb818e7fd4686b3e5aa98aa71f071/part-00000-dec20c30-8f3a-4f31-9957-3bf4374df056-c000.snappy.parquet",
+          "sha256": "8ddfd3750e4ba51b9f525ddac5ba8a2747bff64143d2c1bb6ffaec277dde2966"
+        }
+      ]
+    }
+  },
+  "checks": {
+    "approved_evolution_preserves_business_values": true,
+    "compaction_preserves_values": true,
+    "delete_affects_copy_only": true,
+    "restore_creates_new_commit": true,
+    "trusted_silver_unchanged": true,
+    "unexpected_column_rejected": true,
+    "vacuum_is_non_destructive_dry_run": true
+  },
+  "dataset_manifest_sha256": "20a7e45bed2980b9394c10e8532da3b9f40f614366bb2df26a88610253e768e3",
+  "engine_executed": true,
+  "evolved_rows": 75,
+  "not_proven": [
+    "actual expired-file vacuum deletion",
+    "performance gain",
+    "concurrent writer stress"
+  ],
+  "optimize": {
+    "after": {
+      "numFiles": 1,
+      "sizeInBytes": 12739
+    },
+    "before": {
+      "numFiles": 4,
+      "sizeInBytes": 28486
+    },
+    "metrics": [
+      {
+        "metrics": {
+          "autoCompactParallelismStats": null,
+          "clusteringStats": null,
+          "deletionVectorStats": null,
+          "endTimeMs": 0,
+          "filesAdded": {
+            "avg": 12739.0,
+            "max": 12739,
+            "min": 12739,
+            "totalFiles": 1,
+            "totalSize": 12739
+          },
+          "filesRemoved": {
+            "avg": 7121.5,
+            "max": 7204,
+            "min": 7007,
+            "totalFiles": 4,
+            "totalSize": 28486
+          },
+          "numBatches": 1,
+          "numBins": 1,
+          "numBytesSkippedToReduceWriteAmplification": 0,
+          "numFilesAdded": 1,
+          "numFilesRemoved": 4,
+          "numFilesSkippedToReduceWriteAmplification": 0,
+          "numTableColumns": 15,
+          "numTableColumnsWithStats": 15,
+          "partitionsOptimized": 1,
+          "preserveInsertionOrder": false,
+          "startTimeMs": 1789552741677,
+          "totalClusterParallelism": 2,
+          "totalConsideredFiles": 4,
+          "totalFilesSkipped": 0,
+          "totalScheduledTasks": 0,
+          "zOrderStats": null
+        },
+        "path": "file:/content/masar-modern-data-engineering/outputs/day01_bronze_jmbv27q9/sandbox/day03/compact_52e35050c1ca48c8a7e12ef7405cc142"
+      }
+    ],
+    "speedup_claimed": false
+  },
+  "recovery": {
+    "after_delete": {
+      "business_digest": "69ba5ff6a74a120af5b9144d927c1916735fdaf2eaaba2168accc9b1182a2def",
+      "rows": 74,
+      "schema": [
+        [
+          "trip_id",
+          "string"
+        ],
+        [
+          "driver_id",
+          "string"
+        ],
+        [
+          "city",
+          "string"
+        ],
+        [
+          "start_utc",
+          "timestamp"
+        ],
+        [
+          "end_utc",
+          "timestamp"
+        ],
+        [
+          "trip_date_local",
+          "date"
+        ],
+        [
+          "fare_sar",
+          "decimal(12,2)"
+        ],
+        [
+          "distance_km",
+          "decimal(12,2)"
+        ],
+        [
+          "duration_seconds",
+          "bigint"
+        ],
+        [
+          "vehicle_type",
+          "string"
+        ],
+        [
+          "driver_rating",
+          "decimal(3,1)"
+        ],
+        [
+          "source_revision",
+          "int"
+        ],
+        [
+          "_source_file",
+          "string"
+        ],
+        [
+          "_source_sha256",
+          "string"
+        ],
+        [
+          "_payload_hash",
+          "string"
+        ]
+      ],
+      "version": 1
+    },
+    "after_restore": {
+      "business_digest": "1321d375742d806a1f0fef82be9e2862af04f5d18f3a976792a6b1d9aa1b4383",
+      "rows": 75,
+      "schema": [
+        [
+          "trip_id",
+          "string"
+        ],
+        [
+          "driver_id",
+          "string"
+        ],
+        [
+          "city",
+          "string"
+        ],
+        [
+          "start_utc",
+          "timestamp"
+        ],
+        [
+          "end_utc",
+          "timestamp"
+        ],
+        [
+          "trip_date_local",
+          "date"
+        ],
+        [
+          "fare_sar",
+          "decimal(12,2)"
+        ],
+        [
+          "distance_km",
+          "decimal(12,2)"
+        ],
+        [
+          "duration_seconds",
+          "bigint"
+        ],
+        [
+          "vehicle_type",
+          "string"
+        ],
+        [
+          "driver_rating",
+          "decimal(3,1)"
+        ],
+        [
+          "source_revision",
+          "int"
+        ],
+        [
+          "_source_file",
+          "string"
+        ],
+        [
+          "_source_sha256",
+          "string"
+        ],
+        [
+          "_payload_hash",
+          "string"
+        ]
+      ],
+      "version": 2
+    },
+    "before": {
+      "business_digest": "1321d375742d806a1f0fef82be9e2862af04f5d18f3a976792a6b1d9aa1b4383",
+      "rows": 75,
+      "schema": [
+        [
+          "trip_id",
+          "string"
+        ],
+        [
+          "driver_id",
+          "string"
+        ],
+        [
+          "city",
+          "string"
+        ],
+        [
+          "start_utc",
+          "timestamp"
+        ],
+        [
+          "end_utc",
+          "timestamp"
+        ],
+        [
+          "trip_date_local",
+          "date"
+        ],
+        [
+          "fare_sar",
+          "decimal(12,2)"
+        ],
+        [
+          "distance_km",
+          "decimal(12,2)"
+        ],
+        [
+          "duration_seconds",
+          "bigint"
+        ],
+        [
+          "vehicle_type",
+          "string"
+        ],
+        [
+          "driver_rating",
+          "decimal(3,1)"
+        ],
+        [
+          "source_revision",
+          "int"
+        ],
+        [
+          "_source_file",
+          "string"
+        ],
+        [
+          "_source_sha256",
+          "string"
+        ],
+        [
+          "_payload_hash",
+          "string"
+        ]
+      ],
+      "version": 0
+    },
+    "history": [
+      {
+        "clusterId": null,
+        "engineInfo": "Apache-Spark/3.5.8 Delta-Lake/3.3.3",
+        "isBlindAppend": false,
+        "isolationLevel": "Serializable",
+        "job": null,
+        "notebook": null,
+        "operation": "RESTORE",
+        "operationMetrics": {
+          "numOfFilesAfterRestore": "1",
+          "numRemovedFiles": "1",
+          "numRestoredFiles": "1",
+          "removedFilesSize": "12540",
+          "restoredFilesSize": "12733",
+          "tableSizeAfterRestore": "12733"
+        },
+        "operationParameters": {
+          "timestamp": null,
+          "version": "0"
+        },
+        "readVersion": 1,
+        "timestamp": "2026-09-16 09:59:16.085000",
+        "userId": null,
+        "userMetadata": null,
+        "userName": null,
+        "version": 2
+      },
+      {
+        "clusterId": null,
+        "engineInfo": "Apache-Spark/3.5.8 Delta-Lake/3.3.3",
+        "isBlindAppend": false,
+        "isolationLevel": "Serializable",
+        "job": null,
+        "notebook": null,
+        "operation": "DELETE",
+        "operationMetrics": {
+          "executionTimeMs": "869",
+          "numAddedBytes": "12540",
+          "numAddedChangeFiles": "0",
+          "numAddedFiles": "1",
+          "numCopiedRows": "74",
+          "numDeletedRows": "1",
+          "numDeletionVectorsAdded": "0",
+          "numDeletionVectorsRemoved": "0",
+          "numDeletionVectorsUpdated": "0",
+          "numRemovedBytes": "12733",
+          "numRemovedFiles": "1",
+          "rewriteTimeMs": "371",
+          "scanTimeMs": "497"
+        },
+        "operationParameters": {
+          "predicate": "[\"(trip_id#119051 = SYN_T0001)\"]"
+        },
+        "readVersion": 0,
+        "timestamp": "2026-09-16 09:59:06.940000",
+        "userId": null,
+        "userMetadata": null,
+        "userName": null,
+        "version": 1
+      },
+      {
+        "clusterId": null,
+        "engineInfo": "Apache-Spark/3.5.8 Delta-Lake/3.3.3",
+        "isBlindAppend": true,
+        "isolationLevel": "Serializable",
+        "job": null,
+        "notebook": null,
+        "operation": "WRITE",
+        "operationMetrics": {
+          "numFiles": "1",
+          "numOutputBytes": "12733",
+          "numOutputRows": "75"
+        },
+        "operationParameters": {
+          "mode": "ErrorIfExists",
+          "partitionBy": "[]"
+        },
+        "readVersion": null,
+        "timestamp": "2026-09-16 09:59:03.330000",
+        "userId": null,
+        "userMetadata": null,
+        "userName": null,
+        "version": 0
+      }
+    ]
+  },
+  "run_id": "f299e263ff6649afbb74d6c82e23ca60",
+  "schema_rejection": {
+    "after": {
+      "business_digest": "9ed273a9cce59d6b26d3e82ab9db7474a6c3d5900e953fe25afabef9f2105ce2",
+      "rows": 74,
+      "schema": [
+        [
+          "trip_id",
+          "string"
+        ],
+        [
+          "driver_id",
+          "string"
+        ],
+        [
+          "city",
+          "string"
+        ],
+        [
+          "start_utc",
+          "timestamp"
+        ],
+        [
+          "end_utc",
+          "timestamp"
+        ],
+        [
+          "trip_date_local",
+          "date"
+        ],
+        [
+          "fare_sar",
+          "decimal(12,2)"
+        ],
+        [
+          "distance_km",
+          "decimal(12,2)"
+        ],
+        [
+          "duration_seconds",
+          "bigint"
+        ],
+        [
+          "vehicle_type",
+          "string"
+        ],
+        [
+          "driver_rating",
+          "decimal(3,1)"
+        ],
+        [
+          "source_revision",
+          "int"
+        ],
+        [
+          "_source_file",
+          "string"
+        ],
+        [
+          "_source_sha256",
+          "string"
+        ],
+        [
+          "_payload_hash",
+          "string"
+        ]
+      ],
+      "version": 0
+    },
+    "before": {
+      "business_digest": "9ed273a9cce59d6b26d3e82ab9db7474a6c3d5900e953fe25afabef9f2105ce2",
+      "rows": 74,
+      "schema": [
+        [
+          "trip_id",
+          "string"
+        ],
+        [
+          "driver_id",
+          "string"
+        ],
+        [
+          "city",
+          "string"
+        ],
+        [
+          "start_utc",
+          "timestamp"
+        ],
+        [
+          "end_utc",
+          "timestamp"
+        ],
+        [
+          "trip_date_local",
+          "date"
+        ],
+        [
+          "fare_sar",
+          "decimal(12,2)"
+        ],
+        [
+          "distance_km",
+          "decimal(12,2)"
+        ],
+        [
+          "duration_seconds",
+          "bigint"
+        ],
+        [
+          "vehicle_type",
+          "string"
+        ],
+        [
+          "driver_rating",
+          "decimal(3,1)"
+        ],
+        [
+          "source_revision",
+          "int"
+        ],
+        [
+          "_source_file",
+          "string"
+        ],
+        [
+          "_source_sha256",
+          "string"
+        ],
+        [
+          "_payload_hash",
+          "string"
+        ]
+      ],
+      "version": 0
+    },
+    "committed_table_unchanged": true,
+    "exception_type": "AnalysisException",
+    "kind": "schema",
+    "message_excerpt": "[_LEGACY_ERROR_TEMP_DELTA_0007] A schema mismatch detected when writing to the Delta table (Table ID: 08a08ce4-daf3-4b77-9648-91ab3f32eeae).\nTo enable schema migration using DataFrameWriter or DataStreamWriter, please set:\n'.option(\"mergeSchema\", \"true\")'.\nFor other operations, set the session configuration\nspark.databricks.delta.schema.autoMerge.enabled to \"true\". See the documentation\nspecific to the operation for details.\n\nTable schema:\nroot\n-- trip_id: string (nullable = true)\n-- driver_id: "
+  },
+  "scope": "DAY03_MAINTENANCE_ENGINE",
+  "spark_version": "3.5.8",
+  "surcharge_nonnull_rows": 1,
+  "surcharge_null_rows": 74,
+  "trusted_silver": {
+    "business_digest": "1321d375742d806a1f0fef82be9e2862af04f5d18f3a976792a6b1d9aa1b4383",
+    "rows": 75,
+    "schema": [
+      [
+        "trip_id",
+        "string"
+      ],
+      [
+        "driver_id",
+        "string"
+      ],
+      [
+        "city",
+        "string"
+      ],
+      [
+        "start_utc",
+        "timestamp"
+      ],
+      [
+        "end_utc",
+        "timestamp"
+      ],
+      [
+        "trip_date_local",
+        "date"
+      ],
+      [
+        "fare_sar",
+        "decimal(12,2)"
+      ],
+      [
+        "distance_km",
+        "decimal(12,2)"
+      ],
+      [
+        "duration_seconds",
+        "bigint"
+      ],
+      [
+        "vehicle_type",
+        "string"
+      ],
+      [
+        "driver_rating",
+        "decimal(3,1)"
+      ],
+      [
+        "source_revision",
+        "int"
+      ],
+      [
+        "_source_file",
+        "string"
+      ],
+      [
+        "_source_sha256",
+        "string"
+      ],
+      [
+        "_payload_hash",
+        "string"
+      ]
+    ],
+    "version": 4
+  },
+  "vacuum": {
+    "candidates": [],
+    "dry_run_only": true,
+    "files_deleted_by_vacuum": 0,
+    "retention_hours": 168
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "content_equal": true,
+    "injected_failure_observed": true,
+    "previous_release_preserved": true,
+    "rebuild_has_new_identity": true
+  },
+  "dataset_manifest_sha256": "20a7e45bed2980b9394c10e8532da3b9f40f614366bb2df26a88610253e768e3",
+  "engine_executed": true,
+  "limits": "Same Spark session; this is not the independent fresh-environment final validation.",
+  "run_ids": [
+    "60419550db4345efaae231d3bf8c04d8",
+    "6a5c31f6be704c46b0365b3a37b9fbbf"
+  ],
+  "scope": "DAY05_NATIVE_RECOVERY"
+}

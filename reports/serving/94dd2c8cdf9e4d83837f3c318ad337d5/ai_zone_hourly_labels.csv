@@ -1,0 +1,4 @@
+zone_key,prediction_hour_utc,target_trip_count,label_status,label_available_at_utc
+Z_DAMMAM,2026-06-04T04:00:00Z,,UNOBSERVED,
+Z_JEDDAH,2026-06-04T04:00:00Z,,UNOBSERVED,
+Z_RIYADH,2026-06-04T04:00:00Z,,UNOBSERVED,

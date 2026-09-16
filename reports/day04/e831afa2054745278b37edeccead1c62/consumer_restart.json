@@ -1,0 +1,63 @@
+{
+  "business_event_digest": "e28fad43b3399ac26960a6f10ee08deeb6e040fe71f245208ad4099801e213b5",
+  "checkpoint": "checkpoints/day04/gps_e831afa2054745278b37edeccead1c62",
+  "phase": "restart",
+  "progress": [
+    {
+      "batchId": 3,
+      "durationMs": {
+        "latestOffset": 60,
+        "triggerExecution": 82
+      },
+      "id": "6d84031d-8fe2-4493-a434-af8bf85a5c23",
+      "inputRowsPerSecond": 0.0,
+      "name": "masar_gps_e831afa2054745278b37edeccead1c62",
+      "numInputRows": 0,
+      "processedRowsPerSecond": 0.0,
+      "runId": "06a88347-fa80-487d-93d4-26592f778997",
+      "sink": {
+        "description": "DeltaSink[/content/masar-modern-data-engineering/outputs/day01_bronze_jmbv27q9/mini_lakehouse/bronze/gps_stream/e831afa2054745278b37edeccead1c62]",
+        "numOutputRows": -1
+      },
+      "sources": [
+        {
+          "description": "KafkaV2[Subscribe[masar-day04-e831afa2054745278b37edeccead1c62]]",
+          "endOffset": {
+            "masar-day04-e831afa2054745278b37edeccead1c62": {
+              "0": 108,
+              "1": 108
+            }
+          },
+          "inputRowsPerSecond": 0.0,
+          "latestOffset": {
+            "masar-day04-e831afa2054745278b37edeccead1c62": {
+              "0": 108,
+              "1": 108
+            }
+          },
+          "metrics": {
+            "avgOffsetsBehindLatest": "0.0",
+            "maxOffsetsBehindLatest": "0",
+            "minOffsetsBehindLatest": "0"
+          },
+          "numInputRows": 0,
+          "processedRowsPerSecond": 0.0,
+          "startOffset": {
+            "masar-day04-e831afa2054745278b37edeccead1c62": {
+              "0": 108,
+              "1": 108
+            }
+          }
+        }
+      ],
+      "stateOperators": [],
+      "timestamp": "2026-09-16T10:24:58.932Z"
+    }
+  ],
+  "query_id": "6d84031d-8fe2-4493-a434-af8bf85a5c23",
+  "query_run_id": "06a88347-fa80-487d-93d4-26592f778997",
+  "target": "mini_lakehouse/bronze/gps_stream/e831afa2054745278b37edeccead1c62",
+  "transport_rows": 216,
+  "unique_event_ids": 216,
+  "unique_transport_keys": 216
+}

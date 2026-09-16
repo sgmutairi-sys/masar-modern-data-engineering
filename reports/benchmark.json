@@ -1,0 +1,79 @@
+{
+  "cache_condition": "no explicit Spark cache; repeated local reads; OS/JVM/metadata caches not controlled",
+  "checks": {
+    "equal_source_populations": true,
+    "positive_measured_samples": true,
+    "query_plans_saved": true,
+    "query_results_match_oracle": true
+  },
+  "dataset_manifest_sha256": "20a7e45bed2980b9394c10e8532da3b9f40f614366bb2df26a88610253e768e3",
+  "engine_executed": true,
+  "execution_order": [
+    [
+      "csv",
+      "delta_v0"
+    ],
+    [
+      "delta_v0",
+      "csv"
+    ],
+    [
+      "csv",
+      "delta_v0"
+    ],
+    [
+      "delta_v0",
+      "csv"
+    ]
+  ],
+  "expected_and_observed_aggregate": {
+    "fare_total": "1794.60",
+    "nonnull_fares": 72,
+    "rows": 72
+  },
+  "limitations": [
+    "Tiny synthetic fixture",
+    "Local CPU and storage only",
+    "No guaranteed ranking or speed-up",
+    "Not cloud pricing or distributed scalability evidence"
+  ],
+  "measurements": {
+    "csv": {
+      "max_s": 0.484366528999999,
+      "median_s": 0.31142156150008304,
+      "min_s": 0.20546150999985002,
+      "samples_s": [
+        0.484366528999999,
+        0.21885121500008609,
+        0.20546150999985002,
+        0.40399190800008
+      ]
+    },
+    "delta_v0": {
+      "max_s": 2.9957363139999416,
+      "median_s": 2.133405948000018,
+      "min_s": 1.6056460790000529,
+      "samples_s": [
+        2.461808149000035,
+        1.6056460790000529,
+        1.8050037470000007,
+        2.9957363139999416
+      ]
+    }
+  },
+  "payload_hashes": {
+    "csv": "7257378390b1239dd31bb94fb9f8277f0bba15044b797f639cd31a094dd966ba",
+    "delta_v0": "7257378390b1239dd31bb94fb9f8277f0bba15044b797f639cd31a094dd966ba"
+  },
+  "plans": {
+    "csv": "reports/plans/csv.txt",
+    "delta_v0": "reports/plans/delta_v0.txt"
+  },
+  "population_rows": 72,
+  "repetitions_per_variant": 4,
+  "scope": "DAY01_SPARK_LOCAL_BENCHMARK",
+  "snapshot_version": 0,
+  "spark_version": "3.5.8",
+  "timing_scope": "query construction, planning, Spark action and collect; excludes session startup and ingestion",
+  "warmups_per_variant": 1
+}

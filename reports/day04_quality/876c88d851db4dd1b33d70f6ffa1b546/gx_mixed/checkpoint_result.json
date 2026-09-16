@@ -1,0 +1,15 @@
+{
+  "phase": "mixed",
+  "run_results": {
+    "ValidationResultIdentifier::masar_silver_quality_v1/__none__/20260916T102608.562504Z/masar_silver-silver_trips_snapshot": {
+      "statistics": {
+        "evaluated_expectations": 25,
+        "success_percent": 48.0,
+        "successful_expectations": 12,
+        "unsuccessful_expectations": 13
+      },
+      "success": false
+    }
+  },
+  "success": false
+}

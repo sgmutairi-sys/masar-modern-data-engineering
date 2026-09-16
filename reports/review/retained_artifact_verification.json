@@ -1,0 +1,30 @@
+{
+  "scope": "SAVED_ARTIFACT_REVIEW_NOT_SPARK_KAFKA_DBT_RERUN",
+  "verified_original_artifacts": 171,
+  "source_files_verified": 10,
+  "exports_verified": 8,
+  "actual": {
+    "trip_count": 75,
+    "unique_trip_count": 75,
+    "total_fare_sar": "1880.60",
+    "gps_event_count": 217,
+    "duration_seconds": 95400
+  },
+  "expected": {
+    "trip_count": 75,
+    "unique_trip_count": 75,
+    "total_fare_sar": "1880.60",
+    "gps_event_count": 217,
+    "duration_seconds": 95400
+  },
+  "differences": {
+    "trip_count": "0",
+    "unique_trip_count": "0",
+    "total_fare_sar": "0.00",
+    "gps_event_count": "0",
+    "duration_seconds": "0"
+  },
+  "executed_student_notebooks_verified": false,
+  "clean_full_pipeline_rerun": false,
+  "status": "ARTIFACT_CHECKS_PASSED_SUBMISSION_STILL_INCOMPLETE"
+}

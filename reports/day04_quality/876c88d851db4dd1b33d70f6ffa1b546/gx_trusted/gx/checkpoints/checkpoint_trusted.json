@@ -1,0 +1,20 @@
+{
+  "actions": [
+    {
+      "name": "build_local_data_docs",
+      "site_names": [],
+      "type": "update_data_docs"
+    }
+  ],
+  "id": "52dcdf30-35df-4f45-9169-b32ac1c6b4ec",
+  "name": "checkpoint_trusted",
+  "result_format": {
+    "result_format": "SUMMARY"
+  },
+  "validation_definitions": [
+    {
+      "id": "ecfaf290-ad64-4b46-b826-1ccbec0c38c0",
+      "name": "validate_trusted"
+    }
+  ]
+}

@@ -1,0 +1,1375 @@
+{
+  "scope": "ORIGINAL_SAVED_TEXT_ARTIFACTS_COPIED_FOR_REVIEW",
+  "workspace": "outputs/day01_bronze_jmbv27q9",
+  "dbt_workspace": "outputs/dbt_validation_nh58vl02",
+  "files": [
+    {
+      "repository_path": "reports/checkpoints/day04/gps_e831afa2054745278b37edeccead1c62/commits/0",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/checkpoints/day04/gps_e831afa2054745278b37edeccead1c62/commits/0",
+      "sha256": "e03ead7f1597d288754d29e9b5a074314bc908309db0ead6f6768071d41c41a7",
+      "bytes": 29,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/checkpoints/day04/gps_e831afa2054745278b37edeccead1c62/commits/1",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/checkpoints/day04/gps_e831afa2054745278b37edeccead1c62/commits/1",
+      "sha256": "e03ead7f1597d288754d29e9b5a074314bc908309db0ead6f6768071d41c41a7",
+      "bytes": 29,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/checkpoints/day04/gps_e831afa2054745278b37edeccead1c62/commits/2",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/checkpoints/day04/gps_e831afa2054745278b37edeccead1c62/commits/2",
+      "sha256": "e03ead7f1597d288754d29e9b5a074314bc908309db0ead6f6768071d41c41a7",
+      "bytes": 29,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/checkpoints/day04/gps_e831afa2054745278b37edeccead1c62/commits/3",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/checkpoints/day04/gps_e831afa2054745278b37edeccead1c62/commits/3",
+      "sha256": "e03ead7f1597d288754d29e9b5a074314bc908309db0ead6f6768071d41c41a7",
+      "bytes": 29,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/checkpoints/day04/gps_e831afa2054745278b37edeccead1c62/commits/4",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/checkpoints/day04/gps_e831afa2054745278b37edeccead1c62/commits/4",
+      "sha256": "e03ead7f1597d288754d29e9b5a074314bc908309db0ead6f6768071d41c41a7",
+      "bytes": 29,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/checkpoints/day04/gps_e831afa2054745278b37edeccead1c62/metadata",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/checkpoints/day04/gps_e831afa2054745278b37edeccead1c62/metadata",
+      "sha256": "30e31148d138e208a805d6cc79d230301a153b69c6d04f55d167350ab25953de",
+      "bytes": 45,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/checkpoints/day04/gps_e831afa2054745278b37edeccead1c62/offsets/0",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/checkpoints/day04/gps_e831afa2054745278b37edeccead1c62/offsets/0",
+      "sha256": "f6d46abac880fd02cf78ea300108d5010043fa4a198897dce7e45eb1a88b50bb",
+      "bytes": 770,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/checkpoints/day04/gps_e831afa2054745278b37edeccead1c62/offsets/1",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/checkpoints/day04/gps_e831afa2054745278b37edeccead1c62/offsets/1",
+      "sha256": "be80917cb15c31f98b676882904f24dd00275719e1c219b93e71717f00610836",
+      "bytes": 770,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/checkpoints/day04/gps_e831afa2054745278b37edeccead1c62/offsets/2",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/checkpoints/day04/gps_e831afa2054745278b37edeccead1c62/offsets/2",
+      "sha256": "cffa8fac4236047b51d9bde5b45e26dc07df7d0d96edd4a7bbb71b5860046dcd",
+      "bytes": 772,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/checkpoints/day04/gps_e831afa2054745278b37edeccead1c62/offsets/3",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/checkpoints/day04/gps_e831afa2054745278b37edeccead1c62/offsets/3",
+      "sha256": "2e12783c9adc7389398688e5c29cb59a69aad79a5c48852178227735dd60b003",
+      "bytes": 772,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/checkpoints/day04/gps_e831afa2054745278b37edeccead1c62/offsets/4",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/checkpoints/day04/gps_e831afa2054745278b37edeccead1c62/offsets/4",
+      "sha256": "2346b5c8e82d641b725b467a6482454d047c6b3a5e6353285edc43d1f816988c",
+      "bytes": 772,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/checkpoints/day04/gps_e831afa2054745278b37edeccead1c62/sources/0/0",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/checkpoints/day04/gps_e831afa2054745278b37edeccead1c62/sources/0/0",
+      "sha256": "6ae937625a9be74631a4035ec3f8a3842c0cd2c0198de3981111ac01ea463ef9",
+      "bytes": 66,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/bronze/day03_corrections/7be1691c13014510bcd4e88c522d44cc/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/bronze/day03_corrections/7be1691c13014510bcd4e88c522d44cc/_delta_log/00000000000000000000.json",
+      "sha256": "0a9ccc54ad5e029a30d94d68cdea56834db426f233d3929a2051dd6207e9ec3b",
+      "bytes": 2688,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/bronze/drivers/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/bronze/drivers/_delta_log/00000000000000000000.json",
+      "sha256": "468165d8e7803ed9a6320ff5608e7d15b6433b449636e27db6d881a84086fd40",
+      "bytes": 2070,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/bronze/gps_events/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/bronze/gps_events/_delta_log/00000000000000000000.json",
+      "sha256": "910fad3af161523d15dbd5e40fd10bcbd9f59a9a420bd51ba65df9b8126c5da4",
+      "bytes": 1851,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/bronze/gps_stream/e831afa2054745278b37edeccead1c62/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/bronze/gps_stream/e831afa2054745278b37edeccead1c62/_delta_log/00000000000000000000.json",
+      "sha256": "3bcaad51b94fd6193424f613af197c490d518f1766da64b93c1bfd7db132d1f0",
+      "bytes": 3541,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/bronze/gps_stream/e831afa2054745278b37edeccead1c62/_delta_log/00000000000000000001.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/bronze/gps_stream/e831afa2054745278b37edeccead1c62/_delta_log/00000000000000000001.json",
+      "sha256": "53fa676ad279c33a44f2cc20c1f3b605931cbe84de1e3ecc0b8dc04796b209d0",
+      "bytes": 2408,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/bronze/gps_stream/e831afa2054745278b37edeccead1c62/_delta_log/00000000000000000002.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/bronze/gps_stream/e831afa2054745278b37edeccead1c62/_delta_log/00000000000000000002.json",
+      "sha256": "358e4533f93c1e1d07ede30c940b81632df4084bad7efe51f7b6b6e800dc818d",
+      "bytes": 2410,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/bronze/gps_stream/e831afa2054745278b37edeccead1c62/_delta_log/00000000000000000003.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/bronze/gps_stream/e831afa2054745278b37edeccead1c62/_delta_log/00000000000000000003.json",
+      "sha256": "625c88bf6eeef56b2fe315486c5ab8f64579ec69acc11a9f66745a1205fa9e21",
+      "bytes": 1481,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/bronze/gps_stream/e831afa2054745278b37edeccead1c62/_delta_log/00000000000000000004.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/bronze/gps_stream/e831afa2054745278b37edeccead1c62/_delta_log/00000000000000000004.json",
+      "sha256": "ade6f5232b6c91d4378de25414dd5af9ee59141b0c34cae961353e1ca801d9ed",
+      "bytes": 1481,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/bronze/trips/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/bronze/trips/_delta_log/00000000000000000000.json",
+      "sha256": "bd05eef16de98a106be3c6297de307a27b6ae126bc4fe66d6a287a0bfa1e79aa",
+      "bytes": 2668,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/bronze/trips/_delta_log/00000000000000000001.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/bronze/trips/_delta_log/00000000000000000001.json",
+      "sha256": "b38f1859d7c0c935c24f3846d08df49f9c0b22e52fc012b0bd8c7f531a7879e5",
+      "bytes": 1533,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/bronze/trips/_delta_log/00000000000000000002.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/bronze/trips/_delta_log/00000000000000000002.json",
+      "sha256": "1fa7fd68ad2c061e06470f09809bf64640731b1fb3a8eea239dae47c4f655249",
+      "bytes": 1539,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/bronze/trips/_delta_log/00000000000000000003.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/bronze/trips/_delta_log/00000000000000000003.json",
+      "sha256": "dd1b80757331807d57ae9cf25eeb5ad0be8c915b82c6cbe63e2aff08dd8f7c19",
+      "bytes": 1553,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/quarantine/day04/876c88d851db4dd1b33d70f6ffa1b546/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/quarantine/day04/876c88d851db4dd1b33d70f6ffa1b546/_delta_log/00000000000000000000.json",
+      "sha256": "6e3b195d5e9c17e7c8ebffe5c2737e5be84241eba282d8eb02fff17d58c032b4",
+      "bytes": 2797,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/serving_releases/60419550db4345efaae231d3bf8c04d8/ai/zone_hourly_features/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/serving_releases/60419550db4345efaae231d3bf8c04d8/ai/zone_hourly_features/_delta_log/00000000000000000000.json",
+      "sha256": "e21b59de41ec931ca594fac0d53eee2ff4044551ce4bec75b0dc6ef93a817563",
+      "bytes": 2426,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/serving_releases/60419550db4345efaae231d3bf8c04d8/ai/zone_hourly_labels/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/serving_releases/60419550db4345efaae231d3bf8c04d8/ai/zone_hourly_labels/_delta_log/00000000000000000000.json",
+      "sha256": "e84e876fa1229c8ce1a56e91d53c5a3904f8c27269489efe9ab17755e9fc8242",
+      "bytes": 2240,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/serving_releases/60419550db4345efaae231d3bf8c04d8/bi/dim_date/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/serving_releases/60419550db4345efaae231d3bf8c04d8/bi/dim_date/_delta_log/00000000000000000000.json",
+      "sha256": "84e6e1132a8a324a06d19fc05a38bd8e0006058a7f3e923cbf58ec947fe7a843",
+      "bytes": 1513,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/serving_releases/60419550db4345efaae231d3bf8c04d8/bi/dim_driver/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/serving_releases/60419550db4345efaae231d3bf8c04d8/bi/dim_driver/_delta_log/00000000000000000000.json",
+      "sha256": "0a6e85aa76cc759e4ca1946e79052f344e64b581c18805cf1592f5d5af9b56ab",
+      "bytes": 1345,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/serving_releases/60419550db4345efaae231d3bf8c04d8/bi/dim_zone/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/serving_releases/60419550db4345efaae231d3bf8c04d8/bi/dim_zone/_delta_log/00000000000000000000.json",
+      "sha256": "79f75ae0eb25dd840d86d7ff913667df8f4ad73923a8c287e2b4f5ce28498efd",
+      "bytes": 1795,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/serving_releases/60419550db4345efaae231d3bf8c04d8/bi/fact_trips/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/serving_releases/60419550db4345efaae231d3bf8c04d8/bi/fact_trips/_delta_log/00000000000000000000.json",
+      "sha256": "b3315dac4b414f67fa731e9c4d0d929c3eba9b24024feb6b6430115db852707e",
+      "bytes": 2250,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/serving_releases/60419550db4345efaae231d3bf8c04d8/gold/driver_daily/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/serving_releases/60419550db4345efaae231d3bf8c04d8/gold/driver_daily/_delta_log/00000000000000000000.json",
+      "sha256": "dbab2ae1dfb16696d358a0d7e417e5f3bf1bb6c4441652fdef215b787ddaa91f",
+      "bytes": 1695,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/serving_releases/60419550db4345efaae231d3bf8c04d8/gold/zone_hourly_demand/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/serving_releases/60419550db4345efaae231d3bf8c04d8/gold/zone_hourly_demand/_delta_log/00000000000000000000.json",
+      "sha256": "683b40bb7ef46037e3522bf5495f5e13457c2e7532991ec51befe44ebb521c3b",
+      "bytes": 1877,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/releases/60419550db4345efaae231d3bf8c04d8/release.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/serving_releases/60419550db4345efaae231d3bf8c04d8/release.json",
+      "sha256": "78347d758ba68e82ecf160bbadb0d5bb1714dc1d5620aef69cf538bde971300c",
+      "bytes": 9565,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/serving_releases/6a5c31f6be704c46b0365b3a37b9fbbf/ai/zone_hourly_features/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/serving_releases/6a5c31f6be704c46b0365b3a37b9fbbf/ai/zone_hourly_features/_delta_log/00000000000000000000.json",
+      "sha256": "6594c3e286c35883c13b634613150b03be76fad5209833ad7997c127eb585340",
+      "bytes": 2426,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/serving_releases/6a5c31f6be704c46b0365b3a37b9fbbf/ai/zone_hourly_labels/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/serving_releases/6a5c31f6be704c46b0365b3a37b9fbbf/ai/zone_hourly_labels/_delta_log/00000000000000000000.json",
+      "sha256": "8baac65480160c8127b5762dbd615cc5aad5164af39103c3e4caba28e60f87f3",
+      "bytes": 2240,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/serving_releases/6a5c31f6be704c46b0365b3a37b9fbbf/bi/dim_date/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/serving_releases/6a5c31f6be704c46b0365b3a37b9fbbf/bi/dim_date/_delta_log/00000000000000000000.json",
+      "sha256": "1ddfc67546d38efcf35e08aaf1a09434542f3b726cc8d21297381f1547c119df",
+      "bytes": 1513,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/serving_releases/6a5c31f6be704c46b0365b3a37b9fbbf/bi/dim_driver/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/serving_releases/6a5c31f6be704c46b0365b3a37b9fbbf/bi/dim_driver/_delta_log/00000000000000000000.json",
+      "sha256": "681bade37c29f04b2a849d54d3608a0f65e7510f829d4f643c762829bbc711e9",
+      "bytes": 1345,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/serving_releases/6a5c31f6be704c46b0365b3a37b9fbbf/bi/dim_zone/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/serving_releases/6a5c31f6be704c46b0365b3a37b9fbbf/bi/dim_zone/_delta_log/00000000000000000000.json",
+      "sha256": "6803fd7a85139818784f33d31879ed11574f6fa068a767cc94098506e60acd9f",
+      "bytes": 1795,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/serving_releases/6a5c31f6be704c46b0365b3a37b9fbbf/bi/fact_trips/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/serving_releases/6a5c31f6be704c46b0365b3a37b9fbbf/bi/fact_trips/_delta_log/00000000000000000000.json",
+      "sha256": "1d106a135d054d94361ebdafcd553668c0df0052dbe0ee8ef3c108438835d2dc",
+      "bytes": 2250,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/serving_releases/6a5c31f6be704c46b0365b3a37b9fbbf/gold/driver_daily/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/serving_releases/6a5c31f6be704c46b0365b3a37b9fbbf/gold/driver_daily/_delta_log/00000000000000000000.json",
+      "sha256": "ace7126863405b8791c81fa9c5b4644118a1b00319090356b9276621a6740b3d",
+      "bytes": 1695,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/serving_releases/6a5c31f6be704c46b0365b3a37b9fbbf/gold/zone_hourly_demand/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/serving_releases/6a5c31f6be704c46b0365b3a37b9fbbf/gold/zone_hourly_demand/_delta_log/00000000000000000000.json",
+      "sha256": "ec1e0e9fbceb00f3b24358d3db627d7ebef0777ea54f5337c13aed2ddc423252",
+      "bytes": 1877,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/releases/6a5c31f6be704c46b0365b3a37b9fbbf/release.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/serving_releases/6a5c31f6be704c46b0365b3a37b9fbbf/release.json",
+      "sha256": "38974f8195f585fd0748bc0014ea35e4b846766e57849a3cc0cfa5f55ebd3fd2",
+      "bytes": 9565,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/serving_releases/80b105e7d60d48508afdc098f54f5401/gold/zone_hourly_demand/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/serving_releases/80b105e7d60d48508afdc098f54f5401/gold/zone_hourly_demand/_delta_log/00000000000000000000.json",
+      "sha256": "a02cc80ad1dd7b0069e54d8605e95e778abae8c13b7ddce1a38370a4bc613b52",
+      "bytes": 1877,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/silver/gps_events_day04/e831afa2054745278b37edeccead1c62/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/silver/gps_events_day04/e831afa2054745278b37edeccead1c62/_delta_log/00000000000000000000.json",
+      "sha256": "db2b634d47ae726b7392730157f3c97beb57bdd692ad5c8265eb15e8b85d386c",
+      "bytes": 1955,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/silver/trips/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/silver/trips/_delta_log/00000000000000000000.json",
+      "sha256": "5acb6931f75dfa0517377c1015d839155c0087797b4a352ceb05fed417bf0a8e",
+      "bytes": 3343,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/silver/trips/_delta_log/00000000000000000001.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/silver/trips/_delta_log/00000000000000000001.json",
+      "sha256": "cc0049c6c58be2c585a799e366ceaa76251a256f517b3e1cd119becd4862457d",
+      "bytes": 2575,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/silver/trips/_delta_log/00000000000000000002.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/silver/trips/_delta_log/00000000000000000002.json",
+      "sha256": "d4a920433f4510133a8aa4c9149b9fe2ad85f3ffc779ebfb06e429cf1a1da0c2",
+      "bytes": 2905,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/silver/trips/_delta_log/00000000000000000003.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/silver/trips/_delta_log/00000000000000000003.json",
+      "sha256": "6cfb334434b91d17b6a07763405f70020c071dd05693d7e1a38df69a11066534",
+      "bytes": 2903,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/silver/trips/_delta_log/00000000000000000004.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/silver/trips/_delta_log/00000000000000000004.json",
+      "sha256": "227df4f072990f5b334ab6ef47cd4d0ae0de0d1abc732255e8e2509b6a21b7b0",
+      "bytes": 3139,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/silver/validated_day04/876c88d851db4dd1b33d70f6ffa1b546/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/silver/validated_day04/876c88d851db4dd1b33d70f6ffa1b546/_delta_log/00000000000000000000.json",
+      "sha256": "a7c61791e910c61ee339297125382e94abdc2094ff046dd0cd1cba4c8d48871f",
+      "bytes": 2748,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/staging/day02_05a3580c4cd04e5bb29aa655ab3e1966/stg_drivers/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/staging/day02_05a3580c4cd04e5bb29aa655ab3e1966/stg_drivers/_delta_log/00000000000000000000.json",
+      "sha256": "227155918a5984a46423096a6e5f0d0db298143a0f96c67020a04548ca6253c2",
+      "bytes": 1345,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/staging/day02_05a3580c4cd04e5bb29aa655ab3e1966/stg_gps/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/staging/day02_05a3580c4cd04e5bb29aa655ab3e1966/stg_gps/_delta_log/00000000000000000000.json",
+      "sha256": "74c6389c6b7b54757957bfd205438c4c91e4e5b498fe8eec7dfdab482948e8de",
+      "bytes": 2169,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/staging/day02_05a3580c4cd04e5bb29aa655ab3e1966/stg_trips/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/staging/day02_05a3580c4cd04e5bb29aa655ab3e1966/stg_trips/_delta_log/00000000000000000000.json",
+      "sha256": "79731735d15c3f9b32c046bbf93f05ed87ece7d3a3c57f249891d03a87b2f5bf",
+      "bytes": 4755,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/mini_lakehouse/staging/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/staging/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/_delta_log/00000000000000000000.json",
+      "sha256": "b94f798eddbea0493a256f0be0a544cc43992c063792dd687de726a786dd1389",
+      "bytes": 3866,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/benchmark.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/benchmark.json",
+      "sha256": "e3e86aa226535dff3f3301f5b2daeed12db99abbc25ebf8f245dd75367c78e92",
+      "bytes": 2050,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/bronze.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/bronze.json",
+      "sha256": "303098a5fcc6f6283cb280ff9a9c9912c4f4bb1d009f41ebbf9527d8f4fe9e42",
+      "bytes": 3048,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day02_expected_vs_actual.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day02_expected_vs_actual.json",
+      "sha256": "8bbf074b7ae62a4cdea4d23022940a8a2852003b835422ffcfa8dcffee4208a6",
+      "bytes": 29767,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day02_silver.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day02_silver.json",
+      "sha256": "e86a18dfd25aa8e09e23a42da07160265393bc04803f4abeec3a0d58f2cf9c4d",
+      "bytes": 3122,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day02_staging_05a3580c4cd04e5bb29aa655ab3e1966.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day02_staging_05a3580c4cd04e5bb29aa655ab3e1966.json",
+      "sha256": "f3bc5fe5a142b573686e312cae8e01c0cabd177cb3fccad792b1f7194d1146c8",
+      "bytes": 2590,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day02_staging_latest.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day02_staging_latest.json",
+      "sha256": "f3bc5fe5a142b573686e312cae8e01c0cabd177cb3fccad792b1f7194d1146c8",
+      "bytes": 2590,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day03_maintenance_f299e263ff6649afbb74d6c82e23ca60.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day03_maintenance_f299e263ff6649afbb74d6c82e23ca60.json",
+      "sha256": "f6cc042a65b53cb4c54f388ac8dd39cd3f7a9fa2f187fc5695be4b4e423f8fb2",
+      "bytes": 16932,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day03_maintenance_latest.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day03_maintenance_latest.json",
+      "sha256": "f6cc042a65b53cb4c54f388ac8dd39cd3f7a9fa2f187fc5695be4b4e423f8fb2",
+      "bytes": 16932,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day03_transactions.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day03_transactions.json",
+      "sha256": "d08617d175a89a7ce97a37abf08dbcc718f7deff6269a57f40e711cea2d236a6",
+      "bytes": 19578,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04/e831afa2054745278b37edeccead1c62/consumer_base.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04/e831afa2054745278b37edeccead1c62/consumer_base.json",
+      "sha256": "24c6c31923662ad191d143fc78657561a17075dfe6e17263fee0f05f15c5c573",
+      "bytes": 5667,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04/e831afa2054745278b37edeccead1c62/consumer_late.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04/e831afa2054745278b37edeccead1c62/consumer_late.json",
+      "sha256": "df1e10cb100e0831534a5d4dc05e66e2763d0655680db850ee70792835210d34",
+      "bytes": 2238,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04/e831afa2054745278b37edeccead1c62/consumer_replay.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04/e831afa2054745278b37edeccead1c62/consumer_replay.json",
+      "sha256": "b68fc0ca0a39908ddb8371cabc7c38d3cabf857f6d5b17ac16547fb943e479dc",
+      "bytes": 2240,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04/e831afa2054745278b37edeccead1c62/consumer_restart.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04/e831afa2054745278b37edeccead1c62/consumer_restart.json",
+      "sha256": "0c6fd527eb5d01b0410c4b855806e08a96d183291d636f0ad42604de31dbeb9f",
+      "bytes": 2076,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04/e831afa2054745278b37edeccead1c62/producer_gps.ndjson.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04/e831afa2054745278b37edeccead1c62/producer_gps.ndjson.json",
+      "sha256": "0e674268e28af3cd0ea837fb07c6483fe7b02f295ccd95e709e3a47416fbd00c",
+      "bytes": 25545,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04/e831afa2054745278b37edeccead1c62/producer_gps_late.ndjson.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04/e831afa2054745278b37edeccead1c62/producer_gps_late.ndjson.json",
+      "sha256": "3b177b13dcefd708a5d9041824bfb7ff1c46532d79095350c8ece7157fed106c",
+      "bytes": 398,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04/e831afa2054745278b37edeccead1c62/producer_gps_replay.ndjson.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04/e831afa2054745278b37edeccead1c62/producer_gps_replay.ndjson.json",
+      "sha256": "144a112ba92c62907fc508eb5c3713e1911f1a4b5d18f384bf56752772396f8f",
+      "bytes": 518,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04/e831afa2054745278b37edeccead1c62/streaming.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04/e831afa2054745278b37edeccead1c62/streaming.json",
+      "sha256": "2de06bfb7c4767855e10aa1040024b53e5e108bff0de9e73cc4bf56e288694f4",
+      "bytes": 18859,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_mixed/checkpoint_result.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_mixed/checkpoint_result.json",
+      "sha256": "54ea637b8d31c16965ba76b07b66bc8fd297944b0b320622f166040c594e8f53",
+      "bytes": 406,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_mixed/gx/checkpoints/checkpoint_mixed.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_mixed/gx/checkpoints/checkpoint_mixed.json",
+      "sha256": "30acbc3700c6e0405b5ecae0a8146998cd98ad7bb9145e73251b6c96e035e7c7",
+      "bytes": 395,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_mixed/gx/expectations/masar_silver_quality_v1.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_mixed/gx/expectations/masar_silver_quality_v1.json",
+      "sha256": "f02ecb4be7786b263a7eae56cffb544e5aa87bbc52292a55150e960edf785eeb",
+      "bytes": 6873,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_mixed/gx/plugins/custom_data_docs/styles/data_docs_custom_styles.css",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_mixed/gx/plugins/custom_data_docs/styles/data_docs_custom_styles.css",
+      "sha256": "4cf7378f7321bc1ac92f5ce4fc6b2851d602d151db8ccc09485e7bc15555ef7f",
+      "bytes": 699,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_mixed/gx/uncommitted/data_docs/local_site/expectations/masar_silver_quality_v1.html",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_mixed/gx/uncommitted/data_docs/local_site/expectations/masar_silver_quality_v1.html",
+      "sha256": "e475ea2a2c1f255721e1a86e8b4158ff07492744660dec6b66fbc88c2170e2b6",
+      "bytes": 35743,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_mixed/gx/uncommitted/data_docs/local_site/index.html",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_mixed/gx/uncommitted/data_docs/local_site/index.html",
+      "sha256": "8c049cf9406c25c9e05615e467f76e5a7ceb76f3a9b81e252019f13898a2f4a3",
+      "bytes": 19522,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_mixed/gx/uncommitted/data_docs/local_site/static/styles/data_docs_custom_styles_template.css",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_mixed/gx/uncommitted/data_docs/local_site/static/styles/data_docs_custom_styles_template.css",
+      "sha256": "4cf7378f7321bc1ac92f5ce4fc6b2851d602d151db8ccc09485e7bc15555ef7f",
+      "bytes": 699,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_mixed/gx/uncommitted/data_docs/local_site/static/styles/data_docs_default_styles.css",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_mixed/gx/uncommitted/data_docs/local_site/static/styles/data_docs_default_styles.css",
+      "sha256": "eb3559e2777d934912563e589da495a1b0823b3ae7475bbfb5095b9f4b0f4401",
+      "bytes": 3714,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_mixed/gx/uncommitted/data_docs/local_site/validations/masar_silver_quality_v1/__none__/20260916T102608.562504Z/masar_silver-silver_trips_snapshot.html",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_mixed/gx/uncommitted/data_docs/local_site/validations/masar_silver_quality_v1/__none__/20260916T102608.562504Z/masar_silver-silver_trips_snapshot.html",
+      "sha256": "3210bef9c645a21bfbc61f1c3be2715951d1f0fdb7c6d6edd2407cdc1baed2d0",
+      "bytes": 70801,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_mixed/gx/uncommitted/validations/masar_silver_quality_v1/__none__/20260916T102608.562504Z/masar_silver-silver_trips_snapshot.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_mixed/gx/uncommitted/validations/masar_silver_quality_v1/__none__/20260916T102608.562504Z/masar_silver-silver_trips_snapshot.json",
+      "sha256": "56fd3b86cc666fa2e8bdce903390bc8bf7c6c19d80a1f41d968cb2fcc9f4c6cd",
+      "bytes": 25126,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_mixed/gx/validation_definitions/validate_mixed.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_mixed/gx/validation_definitions/validate_mixed.json",
+      "sha256": "3249fe22a8092d1127cc4ff2df446addc78607ff56b9e106678195edaa9b9941",
+      "bytes": 536,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_rechecked/checkpoint_result.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_rechecked/checkpoint_result.json",
+      "sha256": "807519f157e6abb1f68051dfebaaa7e9d1ce43511057051a422667c5e36a1308",
+      "bytes": 408,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_rechecked/gx/checkpoints/checkpoint_rechecked.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_rechecked/gx/checkpoints/checkpoint_rechecked.json",
+      "sha256": "f2abdd216884b3c36cb0fd8f5ecf1b3f77f142eace7c3e58b41d4dbaa5fa1eb6",
+      "bytes": 403,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_rechecked/gx/expectations/masar_silver_quality_v1.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_rechecked/gx/expectations/masar_silver_quality_v1.json",
+      "sha256": "a8b71263323e856a6bd1dec1a7ae59732a3b3938cc05ba556d60dfb230ec0a64",
+      "bytes": 6873,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_rechecked/gx/plugins/custom_data_docs/styles/data_docs_custom_styles.css",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_rechecked/gx/plugins/custom_data_docs/styles/data_docs_custom_styles.css",
+      "sha256": "4cf7378f7321bc1ac92f5ce4fc6b2851d602d151db8ccc09485e7bc15555ef7f",
+      "bytes": 699,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_rechecked/gx/uncommitted/data_docs/local_site/expectations/masar_silver_quality_v1.html",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_rechecked/gx/uncommitted/data_docs/local_site/expectations/masar_silver_quality_v1.html",
+      "sha256": "d71831f47f9912b3c0eec21d6e1e33f7a361d87962cbc69cd7cd1ecc9b9853c2",
+      "bytes": 35743,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_rechecked/gx/uncommitted/data_docs/local_site/index.html",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_rechecked/gx/uncommitted/data_docs/local_site/index.html",
+      "sha256": "c2f907c6107214d585dc5f6f3132fca741a8415cbe7386a9b758ce557690e737",
+      "bytes": 19532,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_rechecked/gx/uncommitted/data_docs/local_site/static/styles/data_docs_custom_styles_template.css",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_rechecked/gx/uncommitted/data_docs/local_site/static/styles/data_docs_custom_styles_template.css",
+      "sha256": "4cf7378f7321bc1ac92f5ce4fc6b2851d602d151db8ccc09485e7bc15555ef7f",
+      "bytes": 699,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_rechecked/gx/uncommitted/data_docs/local_site/static/styles/data_docs_default_styles.css",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_rechecked/gx/uncommitted/data_docs/local_site/static/styles/data_docs_default_styles.css",
+      "sha256": "eb3559e2777d934912563e589da495a1b0823b3ae7475bbfb5095b9f4b0f4401",
+      "bytes": 3714,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_rechecked/gx/uncommitted/data_docs/local_site/validations/masar_silver_quality_v1/__none__/20260916T102618.349081Z/masar_silver-silver_trips_snapshot.html",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_rechecked/gx/uncommitted/data_docs/local_site/validations/masar_silver_quality_v1/__none__/20260916T102618.349081Z/masar_silver-silver_trips_snapshot.html",
+      "sha256": "9d137b7c22c287bbde1e1b39ffdebbfc578e5d177af793f170fc1d1035244ad3",
+      "bytes": 60631,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_rechecked/gx/uncommitted/validations/masar_silver_quality_v1/__none__/20260916T102618.349081Z/masar_silver-silver_trips_snapshot.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_rechecked/gx/uncommitted/validations/masar_silver_quality_v1/__none__/20260916T102618.349081Z/masar_silver-silver_trips_snapshot.json",
+      "sha256": "419d12e68534f42b7cc64ef1aa58d3a664e245b682614b5e99e7d91a07d95041",
+      "bytes": 22957,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_rechecked/gx/validation_definitions/validate_rechecked.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_rechecked/gx/validation_definitions/validate_rechecked.json",
+      "sha256": "46695cd3de7c488b20127a2afada83aad9326c8645845ddf507f592cfc259a61",
+      "bytes": 540,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_trusted/checkpoint_result.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_trusted/checkpoint_result.json",
+      "sha256": "1df583bf5229fc3268a8b2b55ad41df0f571b0c03483b93a45b8c5e91e0bb1ec",
+      "bytes": 406,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_trusted/gx/checkpoints/checkpoint_trusted.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_trusted/gx/checkpoints/checkpoint_trusted.json",
+      "sha256": "9018cb01a44fc0cddb547bcee947d16b19c1080839fb223d92869bc191c92493",
+      "bytes": 399,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_trusted/gx/expectations/masar_silver_quality_v1.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_trusted/gx/expectations/masar_silver_quality_v1.json",
+      "sha256": "e92d37c94230741b7ac7aa439d4a157b781175a342845e1d313e06aa58c57552",
+      "bytes": 6873,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_trusted/gx/plugins/custom_data_docs/styles/data_docs_custom_styles.css",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_trusted/gx/plugins/custom_data_docs/styles/data_docs_custom_styles.css",
+      "sha256": "4cf7378f7321bc1ac92f5ce4fc6b2851d602d151db8ccc09485e7bc15555ef7f",
+      "bytes": 699,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_trusted/gx/uncommitted/data_docs/local_site/expectations/masar_silver_quality_v1.html",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_trusted/gx/uncommitted/data_docs/local_site/expectations/masar_silver_quality_v1.html",
+      "sha256": "3f462079edaaee7f3c5407013424b567b0ee29be6cbadade880277fcafd40246",
+      "bytes": 35743,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_trusted/gx/uncommitted/data_docs/local_site/index.html",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_trusted/gx/uncommitted/data_docs/local_site/index.html",
+      "sha256": "2ff700772e99312d253e37015ebd855bec18176d6ee3b0f47d1a65a36ed59cf3",
+      "bytes": 19532,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_trusted/gx/uncommitted/data_docs/local_site/static/styles/data_docs_custom_styles_template.css",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_trusted/gx/uncommitted/data_docs/local_site/static/styles/data_docs_custom_styles_template.css",
+      "sha256": "4cf7378f7321bc1ac92f5ce4fc6b2851d602d151db8ccc09485e7bc15555ef7f",
+      "bytes": 699,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_trusted/gx/uncommitted/data_docs/local_site/static/styles/data_docs_default_styles.css",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_trusted/gx/uncommitted/data_docs/local_site/static/styles/data_docs_default_styles.css",
+      "sha256": "eb3559e2777d934912563e589da495a1b0823b3ae7475bbfb5095b9f4b0f4401",
+      "bytes": 3714,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_trusted/gx/uncommitted/data_docs/local_site/validations/masar_silver_quality_v1/__none__/20260916T102601.110392Z/masar_silver-silver_trips_snapshot.html",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_trusted/gx/uncommitted/data_docs/local_site/validations/masar_silver_quality_v1/__none__/20260916T102601.110392Z/masar_silver-silver_trips_snapshot.html",
+      "sha256": "85afc54561a2881e50c69e6d1d005175e3f08646d76e0f7a2a7235eba6df1eac",
+      "bytes": 60631,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_trusted/gx/uncommitted/validations/masar_silver_quality_v1/__none__/20260916T102601.110392Z/masar_silver-silver_trips_snapshot.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_trusted/gx/uncommitted/validations/masar_silver_quality_v1/__none__/20260916T102601.110392Z/masar_silver-silver_trips_snapshot.json",
+      "sha256": "dcbf4772a040db8a7896b58e0b1b9a7fc45ecea2a29bc6291680bd3557957b5f",
+      "bytes": 22957,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_trusted/gx/validation_definitions/validate_trusted.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_trusted/gx/validation_definitions/validate_trusted.json",
+      "sha256": "88965213d40581151d61c56fa2804e7cf1f916498b0d0725666e4448e026e84a",
+      "bytes": 538,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/mixed_policy.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/mixed_policy.json",
+      "sha256": "e9039930d09feac0d617f444ab2dd06b913786c997d7c076242d7bfc811a2eb6",
+      "bytes": 34140,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/quality.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/quality.json",
+      "sha256": "95206bb291cd1c3c1d3ffc87f952d8a3f5df06b977a0ca1314269388b2b133e3",
+      "bytes": 5556,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_quality_latest.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality_latest.json",
+      "sha256": "95206bb291cd1c3c1d3ffc87f952d8a3f5df06b977a0ca1314269388b2b133e3",
+      "bytes": 5556,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day04_stream_latest.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_stream_latest.json",
+      "sha256": "2de06bfb7c4767855e10aa1040024b53e5e108bff0de9e73cc4bf56e288694f4",
+      "bytes": 18859,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day05_failures/80b105e7d60d48508afdc098f54f5401.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day05_failures/80b105e7d60d48508afdc098f54f5401.json",
+      "sha256": "7d68058ba78f5f3a5bd9d8a652bc9f1b95e8a7f8c23d0c7b84934f114226be9a",
+      "bytes": 359,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day05_gold_latest.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day05_gold_latest.json",
+      "sha256": "885276601ec6d7a450500c11493a97b5083c190ff7aeab593d14bb4c84aa3a53",
+      "bytes": 235,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day05_recovery.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day05_recovery.json",
+      "sha256": "deea64cbeba24484d71f18f61856a990c0184fd6f7e00a96d07564a8a6adf0a3",
+      "bytes": 523,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day05_serving_latest.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day05_serving_latest.json",
+      "sha256": "c34a12192ce2d4c525e3edc1001ee3983f3131166e70feb73bad2173163ad7bc",
+      "bytes": 3418,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/plans/csv.txt",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/plans/csv.txt",
+      "sha256": "0b1d323cb35cc442efcd128426691ad98753244284c83a413d4f6ad8a616ee5c",
+      "bytes": 1367,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/plans/delta_v0.txt",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/plans/delta_v0.txt",
+      "sha256": "3333229ece6f04f352e3a2100d9bb664fd8d2bf803174d0473b9f267f3ce0248",
+      "bytes": 1407,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/serving/94dd2c8cdf9e4d83837f3c318ad337d5/ai_zone_hourly_features.csv",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/serving/94dd2c8cdf9e4d83837f3c318ad337d5/ai_zone_hourly_features.csv",
+      "sha256": "0bce91681e3db5c2ab7d8b5e2db8b833cb3f81e2f240ee256153a1d90612a176",
+      "bytes": 479,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/serving/94dd2c8cdf9e4d83837f3c318ad337d5/ai_zone_hourly_labels.csv",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/serving/94dd2c8cdf9e4d83837f3c318ad337d5/ai_zone_hourly_labels.csv",
+      "sha256": "61129cd8f14c3de65286d40f5257a012bbbdfd5e1ab25aa53eb4a4de1b43423b",
+      "bytes": 212,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/serving/94dd2c8cdf9e4d83837f3c318ad337d5/bi_dim_date.csv",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/serving/94dd2c8cdf9e4d83837f3c318ad337d5/bi_dim_date.csv",
+      "sha256": "b933df8ba2caad9d2337123b5a8a45ce07b4d31273dcb0e3950389ac5620ccf9",
+      "bytes": 122,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/serving/94dd2c8cdf9e4d83837f3c318ad337d5/bi_dim_driver.csv",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/serving/94dd2c8cdf9e4d83837f3c318ad337d5/bi_dim_driver.csv",
+      "sha256": "0c4b737144b0415155174831a5ccb5f60fbc697d0eb498330dde7e70db81c0e5",
+      "bytes": 172,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/serving/94dd2c8cdf9e4d83837f3c318ad337d5/bi_dim_zone.csv",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/serving/94dd2c8cdf9e4d83837f3c318ad337d5/bi_dim_zone.csv",
+      "sha256": "11c1fc64c1d1dc199edbc8e325f170367de9773602f504384a2b292628273b0e",
+      "bytes": 111,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/serving/94dd2c8cdf9e4d83837f3c318ad337d5/bi_fact_trips.csv",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/serving/94dd2c8cdf9e4d83837f3c318ad337d5/bi_fact_trips.csv",
+      "sha256": "16c8ac0b82e90f98bc52b9d2f946a5b811c84b5dc8f9049e9485a37c0beed918",
+      "bytes": 5783,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/serving/94dd2c8cdf9e4d83837f3c318ad337d5/gold_driver_daily.csv",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/serving/94dd2c8cdf9e4d83837f3c318ad337d5/gold_driver_daily.csv",
+      "sha256": "1d4413d637e06d22498d48b9bf6c80f24df86179160a3cfc05a5ad65f8c2ff3a",
+      "bytes": 681,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/serving/94dd2c8cdf9e4d83837f3c318ad337d5/gold_zone_hourly_demand.csv",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/serving/94dd2c8cdf9e4d83837f3c318ad337d5/gold_zone_hourly_demand.csv",
+      "sha256": "fa7c7885994664e2cb68ca897eed700e4951f4820255484fb538f3caaf9bb464",
+      "bytes": 5229,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/serving/94dd2c8cdf9e4d83837f3c318ad337d5/serving.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/serving/94dd2c8cdf9e4d83837f3c318ad337d5/serving.json",
+      "sha256": "c34a12192ce2d4c525e3edc1001ee3983f3131166e70feb73bad2173163ad7bc",
+      "bytes": 3418,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/sandbox/day03/compact_52e35050c1ca48c8a7e12ef7405cc142/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/sandbox/day03/compact_52e35050c1ca48c8a7e12ef7405cc142/_delta_log/00000000000000000000.json",
+      "sha256": "48cfdf7bd697eb2a9bb172b19d79e9efeec0f3da05c53a8e48456e017f4067cf",
+      "bytes": 7743,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/sandbox/day03/compact_52e35050c1ca48c8a7e12ef7405cc142/_delta_log/00000000000000000001.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/sandbox/day03/compact_52e35050c1ca48c8a7e12ef7405cc142/_delta_log/00000000000000000001.json",
+      "sha256": "293b852df012e6abb2594e21f7164e12adf25c597cdb5e5d8764972c43133f17",
+      "bytes": 2986,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/sandbox/day03/constraints_14750a3ec78e4bf68fc82de359830d3d/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/sandbox/day03/constraints_14750a3ec78e4bf68fc82de359830d3d/_delta_log/00000000000000000000.json",
+      "sha256": "a1b7688ab21e2d6e564fb86273956fab68b2f15ea48ce947c25b87f21d4ad699",
+      "bytes": 3350,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/sandbox/day03/constraints_14750a3ec78e4bf68fc82de359830d3d/_delta_log/00000000000000000001.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/sandbox/day03/constraints_14750a3ec78e4bf68fc82de359830d3d/_delta_log/00000000000000000001.json",
+      "sha256": "c427cedd1b4e72c02a16547b4ca364bd1896f7046affb511fc4442c089ec65c8",
+      "bytes": 1957,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/sandbox/day03/constraints_14750a3ec78e4bf68fc82de359830d3d/_delta_log/00000000000000000002.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/sandbox/day03/constraints_14750a3ec78e4bf68fc82de359830d3d/_delta_log/00000000000000000002.json",
+      "sha256": "85c83a379f789d2a83c861a1fd281a99ea448566bc464a71bb51f9a28a76da5e",
+      "bytes": 2010,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/sandbox/day03/recovery_cb1422ab6f6046fc9a8a32a2b42fb153/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/sandbox/day03/recovery_cb1422ab6f6046fc9a8a32a2b42fb153/_delta_log/00000000000000000000.json",
+      "sha256": "efee26a33b6acde3178171c20277615eff1844a91a85c2d6f4144d4c459dd7ae",
+      "bytes": 3350,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/sandbox/day03/recovery_cb1422ab6f6046fc9a8a32a2b42fb153/_delta_log/00000000000000000001.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/sandbox/day03/recovery_cb1422ab6f6046fc9a8a32a2b42fb153/_delta_log/00000000000000000001.json",
+      "sha256": "cf17c44002da11251741671735f6515cd04a970165ba4deab3479124ba9c4ca2",
+      "bytes": 2317,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/sandbox/day03/recovery_cb1422ab6f6046fc9a8a32a2b42fb153/_delta_log/00000000000000000002.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/sandbox/day03/recovery_cb1422ab6f6046fc9a8a32a2b42fb153/_delta_log/00000000000000000002.json",
+      "sha256": "4a803e426f7adcb086f2419f1b44354277025b00f6a7e94fdedd07f4976116af",
+      "bytes": 4956,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/sandbox/day03/schema_e60cb818e7fd4686b3e5aa98aa71f071/_delta_log/00000000000000000000.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/sandbox/day03/schema_e60cb818e7fd4686b3e5aa98aa71f071/_delta_log/00000000000000000000.json",
+      "sha256": "19dd95459f4aa45cfd802ef0f25ecdf37d7ae198c4d7b89faeaf26eb488f01b4",
+      "bytes": 3350,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/delta_logs/sandbox/day03/schema_e60cb818e7fd4686b3e5aa98aa71f071/_delta_log/00000000000000000001.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/sandbox/day03/schema_e60cb818e7fd4686b3e5aa98aa71f071/_delta_log/00000000000000000001.json",
+      "sha256": "3089aef3b96968a84b392053bd45f80b951a0da089920f3ed2430a3acdbbea16",
+      "bytes": 3460,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/day01_bronze_success.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_success.json",
+      "sha256": "d2391716a906d49826aea8dd952ebbb2e51a054cfc7898e0594b7afc90dfd9cb",
+      "bytes": 262,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/source_inspection.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/day01_0mf5whdj/source_inspection.json",
+      "sha256": "0ffd6326270d10ea56f1eebb71f9335308ea02238fc965da2a6564aab48d6556",
+      "bytes": 1752,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/cost_model_result.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/day01_fqg3icfv/cost_model_result.json",
+      "sha256": "48283d804552f50d8f1cf8a72433def4efc97a1ccbe1115b42f04a8267947d74",
+      "bytes": 2718,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/dbt/commands/base_build/target/run_results.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/dbt_validation_nh58vl02/dbt/commands/base_build/target/run_results.json",
+      "sha256": "7785119bcaff8cac7f140352f0614a4a64f38e1f0fa2bd94538dccdbd97bf7eb",
+      "bytes": 27916,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/dbt/commands/base_freshness/target/sources.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/dbt_validation_nh58vl02/dbt/commands/base_freshness/target/sources.json",
+      "sha256": "ad396f98716e75421b896806f14f73fd7c01318e267a1fdee166ec15b3287a31",
+      "bytes": 2386,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/dbt/commands/base_gate/target/run_results.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/dbt_validation_nh58vl02/dbt/commands/base_gate/target/run_results.json",
+      "sha256": "47787b0a09970a324b2e45e3e068613d8d66b73e7831a678e83156976a84fde3",
+      "bytes": 13142,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/dbt/commands/base_stage/target/run_results.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/dbt_validation_nh58vl02/dbt/commands/base_stage/target/run_results.json",
+      "sha256": "0562b605c9da7bf09c897b630916c0ed25cf0410b107d0815d75d68de6793bc6",
+      "bytes": 5976,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/dbt/commands/documentation/target/catalog.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/dbt_validation_nh58vl02/dbt/commands/documentation/target/catalog.json",
+      "sha256": "6ab271bfc355c069d448a4880ce18d34530b414402cdf25e769aa421d536bb65",
+      "bytes": 11584,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/dbt/commands/documentation/target/index.html",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/dbt_validation_nh58vl02/dbt/commands/documentation/target/index.html",
+      "sha256": "98822311655171044cae10028d36e134b7511364014cf84044bd7bd627087113",
+      "bytes": 1709115,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/dbt/commands/documentation/target/manifest.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/dbt_validation_nh58vl02/dbt/commands/documentation/target/manifest.json",
+      "sha256": "1023569e136e581a6f0cef9dfe6dfb0cdaa221a27ad5db34efb03609a97085c1",
+      "bytes": 557550,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/dbt/commands/documentation/target/run_results.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/dbt_validation_nh58vl02/dbt/commands/documentation/target/run_results.json",
+      "sha256": "0a263f1c9fc883e4dda796f35e235b3dc24e1b0ed35843e103b1e33e5df6e908",
+      "bytes": 27911,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/dbt/commands/late_build/target/run_results.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/dbt_validation_nh58vl02/dbt/commands/late_build/target/run_results.json",
+      "sha256": "4d759190d6a6a8de2e86d10fffaef07dfac9165e68fc31792285367a657703a4",
+      "bytes": 28266,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/dbt/commands/late_freshness/target/sources.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/dbt_validation_nh58vl02/dbt/commands/late_freshness/target/sources.json",
+      "sha256": "402cd3f87eccea55ae40700cbcc677e1120fb01daf185964f581683a815cd288",
+      "bytes": 2382,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/dbt/commands/late_gate/target/run_results.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/dbt_validation_nh58vl02/dbt/commands/late_gate/target/run_results.json",
+      "sha256": "03b79fff475825f27b32e1f88b74e5491cd6b28ce3fb7eda301daf40aef396bc",
+      "bytes": 13142,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/dbt/commands/late_replay_build/target/run_results.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/dbt_validation_nh58vl02/dbt/commands/late_replay_build/target/run_results.json",
+      "sha256": "2a6f80f998ec574f0be555e05b97626bad412a08576d12169ee653cd54399f70",
+      "bytes": 28275,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/dbt/commands/late_replay_freshness/target/sources.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/dbt_validation_nh58vl02/dbt/commands/late_replay_freshness/target/sources.json",
+      "sha256": "7a4a1268c842c1363653d54b8cfad285879b4dc908806c6fdd575f5d7cc26cef",
+      "bytes": 2383,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/dbt/commands/late_replay_gate/target/run_results.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/dbt_validation_nh58vl02/dbt/commands/late_replay_gate/target/run_results.json",
+      "sha256": "4fc84485e2a8c3e51e96601aeb78ee1595bef31a172189bb57cace3e855b0ae5",
+      "bytes": 13154,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/dbt/commands/late_replay_stage/target/run_results.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/dbt_validation_nh58vl02/dbt/commands/late_replay_stage/target/run_results.json",
+      "sha256": "65675f734931c0ec090525eeffe544a86a968e736a708880a2c134281505e388",
+      "bytes": 5994,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/dbt/commands/late_stage/target/run_results.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/dbt_validation_nh58vl02/dbt/commands/late_stage/target/run_results.json",
+      "sha256": "ccf9a54832580637ffa244a90222dc738b92e8e77b8745afa6bc9a4d503ac131",
+      "bytes": 5978,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/dbt/commands/rerun_build/target/run_results.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/dbt_validation_nh58vl02/dbt/commands/rerun_build/target/run_results.json",
+      "sha256": "02c2605e8e8d6fa6066bcf93843f49da85ee06dcdf5b66734684731795d6ff8e",
+      "bytes": 28271,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/dbt/commands/rerun_freshness/target/sources.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/dbt_validation_nh58vl02/dbt/commands/rerun_freshness/target/sources.json",
+      "sha256": "4e7873508b4bb32dabd2fb91814e580b66886f7450eb4b258103051b485d02b4",
+      "bytes": 2384,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/dbt/commands/rerun_gate/target/run_results.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/dbt_validation_nh58vl02/dbt/commands/rerun_gate/target/run_results.json",
+      "sha256": "d17dbc0ca3676627fe95bcf9af5d4fa4064ca2f16466f9724c821fdc000b60be",
+      "bytes": 13144,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/dbt/commands/rerun_stage/target/run_results.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/dbt_validation_nh58vl02/dbt/commands/rerun_stage/target/run_results.json",
+      "sha256": "5e7a04da133079d4f43f2ad6551838e7f2e34632dc513aadfea20dd421807710",
+      "bytes": 5982,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/dbt/bronze.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/dbt_validation_nh58vl02/reports/bronze.json",
+      "sha256": "136afb392ae4acc1fda5059d194cdb8027c1f0aac4e15349dba59c7b485e421e",
+      "bytes": 3048,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/dbt/dbt_attempt.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/dbt_validation_nh58vl02/reports/dbt_attempt.json",
+      "sha256": "cfaf815b3838d59f06ca3222dfaa25fb745ca41dbbbd36643bff199bfcd70cc0",
+      "bytes": 27331,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/dbt/dbt_base_business_rows.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/dbt_validation_nh58vl02/reports/dbt_base_business_rows.json",
+      "sha256": "b6609d34af7cf54a718f9da296389e8ea994d26f0eda2c99b804f6ee3b15a9db",
+      "bytes": 28590,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/dbt/dbt_late_business_rows.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/dbt_validation_nh58vl02/reports/dbt_late_business_rows.json",
+      "sha256": "3356020fa8a22b6e13460746f2c52aa55bee2af066d77fff64f50d3191782132",
+      "bytes": 29784,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/dbt/dbt_late_replay_business_rows.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/dbt_validation_nh58vl02/reports/dbt_late_replay_business_rows.json",
+      "sha256": "3356020fa8a22b6e13460746f2c52aa55bee2af066d77fff64f50d3191782132",
+      "bytes": 29784,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/dbt/dbt_rerun_business_rows.json",
+      "source_archive": "masar_remaining_evidence.zip",
+      "source_path": "outputs/dbt_validation_nh58vl02/reports/dbt_rerun_business_rows.json",
+      "sha256": "b6609d34af7cf54a718f9da296389e8ea994d26f0eda2c99b804f6ee3b15a9db",
+      "bytes": 28590,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/quality/quality.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality_latest.json",
+      "sha256": "95206bb291cd1c3c1d3ffc87f952d8a3f5df06b977a0ca1314269388b2b133e3",
+      "bytes": 5556,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/quality/gx_trusted_validation.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_trusted/gx/uncommitted/validations/masar_silver_quality_v1/__none__/20260916T102601.110392Z/masar_silver-silver_trips_snapshot.json",
+      "sha256": "dcbf4772a040db8a7896b58e0b1b9a7fc45ecea2a29bc6291680bd3557957b5f",
+      "bytes": 22957,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/quality/gx_trusted_checkpoint.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_trusted/checkpoint_result.json",
+      "sha256": "1df583bf5229fc3268a8b2b55ad41df0f571b0c03483b93a45b8c5e91e0bb1ec",
+      "bytes": 406,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/quality/gx_mixed_validation.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_mixed/gx/uncommitted/validations/masar_silver_quality_v1/__none__/20260916T102608.562504Z/masar_silver-silver_trips_snapshot.json",
+      "sha256": "56fd3b86cc666fa2e8bdce903390bc8bf7c6c19d80a1f41d968cb2fcc9f4c6cd",
+      "bytes": 25126,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/quality/gx_mixed_checkpoint.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_mixed/checkpoint_result.json",
+      "sha256": "54ea637b8d31c16965ba76b07b66bc8fd297944b0b320622f166040c594e8f53",
+      "bytes": 406,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/quality/gx_rechecked_validation.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_rechecked/gx/uncommitted/validations/masar_silver_quality_v1/__none__/20260916T102618.349081Z/masar_silver-silver_trips_snapshot.json",
+      "sha256": "419d12e68534f42b7cc64ef1aa58d3a664e245b682614b5e99e7d91a07d95041",
+      "bytes": 22957,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/quality/gx_rechecked_checkpoint.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_rechecked/checkpoint_result.json",
+      "sha256": "807519f157e6abb1f68051dfebaaa7e9d1ce43511057051a422667c5e36a1308",
+      "bytes": 408,
+      "copied_without_modification": true
+    },
+    {
+      "repository_path": "reports/quality/gx_expectation_suite.json",
+      "source_archive": "day05_handoff.zip",
+      "source_path": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/gx_trusted/gx/expectations/masar_silver_quality_v1.json",
+      "sha256": "e92d37c94230741b7ac7aa439d4a157b781175a342845e1d313e06aa58c57552",
+      "bytes": 6873,
+      "copied_without_modification": true
+    }
+  ]
+}

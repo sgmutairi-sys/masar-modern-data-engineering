@@ -1,0 +1,15 @@
+{
+  "scope": "EXTRACT_FROM_SAVED_POLICY_REPORT_NOT_NEW_GX_OR_DELTA_RUN",
+  "source_report": "reports/day04_quality/876c88d851db4dd1b33d70f6ffa1b546/mixed_policy.json",
+  "source_sha256": "e9039930d09feac0d617f444ab2dd06b913786c997d7c076242d7bfc811a2eb6",
+  "rows": 7,
+  "reason_counts": {
+    "INVALID_CITY": 1,
+    "INVALID_DISTANCE": 1,
+    "INVALID_DURATION": 1,
+    "INVALID_FARE": 1,
+    "INVALID_TIMESTAMP": 1,
+    "MISSING_TRIP_ID": 1,
+    "UNKNOWN_DRIVER": 1
+  }
+}

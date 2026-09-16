@@ -1,0 +1,20 @@
+{
+  "actions": [
+    {
+      "name": "build_local_data_docs",
+      "site_names": [],
+      "type": "update_data_docs"
+    }
+  ],
+  "id": "cc8de420-fcd4-4a8b-bd39-51aa3d28bd63",
+  "name": "checkpoint_mixed",
+  "result_format": {
+    "result_format": "SUMMARY"
+  },
+  "validation_definitions": [
+    {
+      "id": "713b724d-ae3d-4827-8939-5816bd973305",
+      "name": "validate_mixed"
+    }
+  ]
+}

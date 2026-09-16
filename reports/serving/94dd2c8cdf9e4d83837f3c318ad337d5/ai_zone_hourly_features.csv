@@ -1,0 +1,4 @@
+zone_key,as_of_utc,prediction_hour_utc,history_window_start_utc,completed_trips_24h,avg_duration_seconds_24h,history_available,max_source_available_at_utc
+Z_DAMMAM,2026-06-04T03:05:00Z,2026-06-04T04:00:00Z,2026-06-03T03:05:00Z,8,1470.00,True,2026-06-04T03:00:00Z
+Z_JEDDAH,2026-06-04T03:05:00Z,2026-06-04T04:00:00Z,2026-06-03T03:05:00Z,8,1350.00,True,2026-06-04T03:00:00Z
+Z_RIYADH,2026-06-04T03:05:00Z,2026-06-04T04:00:00Z,2026-06-03T03:05:00Z,8,1230.00,True,2026-06-04T03:00:00Z

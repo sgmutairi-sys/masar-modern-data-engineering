@@ -1,0 +1,42 @@
+== Physical Plan ==
+AdaptiveSparkPlan (6)
++- HashAggregate (5)
+   +- Exchange (4)
+      +- HashAggregate (3)
+         +- Project (2)
+            +- Scan csv  (1)
+
+
+(1) Scan csv 
+Output [1]: [fare_sar#7047]
+Batched: false
+Location: InMemoryFileIndex [file:/content/masar-modern-data-engineering/data/masar-small-v1/trips.csv]
+ReadSchema: struct<fare_sar:string>
+
+(2) Project
+Output [1]: [cast(fare_sar#7047 as decimal(12,2)) AS fare#7056]
+Input [1]: [fare_sar#7047]
+
+(3) HashAggregate
+Input [1]: [fare#7056]
+Keys: []
+Functions [3]: [partial_count(1), partial_count(fare#7056), partial_sum(fare#7056)]
+Aggregate Attributes [4]: [count#7069L, count#7070L, sum#7071, isEmpty#7072]
+Results [4]: [count#7073L, count#7074L, sum#7075, isEmpty#7076]
+
+(4) Exchange
+Input [4]: [count#7073L, count#7074L, sum#7075, isEmpty#7076]
+Arguments: SinglePartition, ENSURE_REQUIREMENTS, [plan_id=2980]
+
+(5) HashAggregate
+Input [4]: [count#7073L, count#7074L, sum#7075, isEmpty#7076]
+Keys: []
+Functions [3]: [count(1), count(fare#7056), sum(fare#7056)]
+Aggregate Attributes [3]: [count(1)#7059L, count(fare#7056)#7061L, sum(fare#7056)#7063]
+Results [3]: [count(1)#7059L AS rows#7060L, count(fare#7056)#7061L AS nonnull_fares#7062L, sum(fare#7056)#7063 AS fare_total#7064]
+
+(6) AdaptiveSparkPlan
+Output [3]: [rows#7060L, nonnull_fares#7062L, fare_total#7064]
+Arguments: isFinalPlan=false
+
+

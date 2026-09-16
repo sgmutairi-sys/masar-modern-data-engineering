@@ -1,0 +1,20 @@
+{
+  "acknowledgments": [
+    {
+      "offset": 108,
+      "partition": 0,
+      "topic": "masar-day04-e831afa2054745278b37edeccead1c62"
+    },
+    {
+      "offset": 109,
+      "partition": 0,
+      "topic": "masar-day04-e831afa2054745278b37edeccead1c62"
+    }
+  ],
+  "file": "gps_replay.ndjson",
+  "file_sha256": "0a1cfa80c4aaf6f48beb08a97677f50da670f71b9e592c0a9a02431a31f65a89",
+  "kafka_executed": true,
+  "sent_confirmed": 2,
+  "status": "ACKNOWLEDGED",
+  "topic": "masar-day04-e831afa2054745278b37edeccead1c62"
+}
