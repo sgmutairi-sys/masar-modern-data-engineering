@@ -28,13 +28,8 @@
     "original_preserved": true,
     "daily_excerpts_verified": 5,
     "source_code_and_outputs_preserved": true,
-    "cells_without_saved_execution": [
-      {
-        "day": 5,
-        "source_cell_index_zero_based": 78
-      }
-    ],
-    "all_code_cells_have_saved_execution": false,
+    "cells_without_saved_execution": [],
+    "all_code_cells_have_saved_execution": true,
     "scope": "INTEGRITY_CHECK_OF_SAVED_NOTEBOOKS_NOT_REEXECUTION"
   },
   "quality_recovery_artifacts": {
@@ -44,6 +39,12 @@
     "quarantine_snapshot_rows": 7,
     "scope": "PUBLISHED_SAVED_FILE_CHECK_NOT_NEW_PARQUET_READ_OR_ENGINE_RUN",
     "original_archive_independent_review": "reports/review/quality_recovery_archive_review.json"
+  },
+  "day05_current_setup": {
+    "saved_setup_output_verified": true,
+    "prerequisite_report_ids_match": true,
+    "labs_07_08_reexecuted": false,
+    "scope": "SAVED_SETUP_EVIDENCE_CHECK_NOT_ENGINE_REEXECUTION"
   },
   "clean_full_pipeline_rerun": false,
   "status": "ARTIFACT_CHECKS_PASSED_SUBMISSION_STILL_INCOMPLETE"

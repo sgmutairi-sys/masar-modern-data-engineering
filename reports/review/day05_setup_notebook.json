@@ -1,0 +1,36 @@
+{
+  "scope": "EXTRACTION_OF_CURRENT_SETUP_CHECK_FROM_USER_UPLOADED_NOTEBOOK",
+  "notebook": "notebooks/Sultan_Training_Project.ipynb",
+  "notebook_sha256": "048405236fae87de8d639059d36c87d0d32f22b164a45393c10d3e60b930ec7d",
+  "source_cell_index_zero_based": 78,
+  "saved_execution_count": 2,
+  "restored_files_printed": 631,
+  "restored_archive": "day04_quality_recovery_20260916T180618912333Z.zip",
+  "restored_archive_sha256": "93c80093b3838ff962bd302c635789164b3765928891a6ce9898fccb979dd950",
+  "helper_git_commit_in_cell_source": "32552a04f02289a7879beee6fcece745b1d9c181",
+  "saved_setup_result": {
+    "scope": "CURRENT_DAY05_DEPENDENCY_AND_SAVED_PREREQUISITE_CHECK_ONLY",
+    "python": "3.11.13",
+    "java": "openjdk version \"17.0.20\" 2026-07-21",
+    "course_python_executable": "/content/masar-course-py311/bin/python",
+    "prerequisites": {
+      "lab05_streaming": {
+        "run_id": "e831afa2054745278b37edeccead1c62",
+        "saved_checks_passed": true
+      },
+      "lab06_quality": {
+        "run_id": "6801045da5ed4b1ca794844ac78b38bc",
+        "saved_checks_passed": true
+      }
+    },
+    "engine_executed": false,
+    "labs_07_08_reexecuted": false,
+    "meaning": "Current setup validation; earlier Lab 07/08 notebook outputs remain historical."
+  },
+  "setup_result_matches_saved_native_prerequisite_ids": true,
+  "all_combined_notebook_code_cells_have_outputs": true,
+  "combined_notebook_code_cells": 40,
+  "unchanged_other_source_cells": 86,
+  "labs_07_08_reexecuted": false,
+  "complete_course_rerun": false
+}

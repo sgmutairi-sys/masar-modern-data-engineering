@@ -1,7 +1,7 @@
 {
   "scope": "REVIEW_AND_FAITHFUL_EXTRACTION_OF_USER_SUPPLIED_NOTEBOOK_NOT_REEXECUTION",
-  "original_uploaded_filename": "Another_copy_of_Sultan_Training_Project (2).ipynb",
-  "original_sha256": "cd561e17dadcf6cd3d73d8634bbfc3d76fdf1779471ad01882bb417174791a00",
+  "original_uploaded_filename": "Another_copy_of_Sultan_Training_Project (3).ipynb",
+  "original_sha256": "048405236fae87de8d639059d36c87d0d32f22b164a45393c10d3e60b930ec7d",
   "original_published_path": "notebooks/Sultan_Training_Project.ipynb",
   "original_cell_count": 87,
   "original_code_cell_count": 40,
@@ -38,7 +38,7 @@
         40,
         43
       ],
-      "sha256": "4866d6b234df859d76d6e73fed39575b4dd3b414d11cf3140b3e4b476f45b581"
+      "sha256": "1703a38c05713bd318c890c6565ebc20d8686d5a4aba804682aff62bf7117497"
     },
     {
       "day": 2,
@@ -56,7 +56,7 @@
         53,
         55
       ],
-      "sha256": "09aeaecec9900e46ab16ce2f3e324a391dc1eda510f7893fed1ff0e62c161f85"
+      "sha256": "75c5bc47effdff19f7eca175d8fb68c47ba47dccd0384041e972920ff95608d1"
     },
     {
       "day": 3,
@@ -73,7 +73,7 @@
         62,
         64
       ],
-      "sha256": "056d82c4202f99c9601e06fcb38a75bf75d267f00ef184cd70c4187d6bd686df"
+      "sha256": "8a944599ef9310449332e7a5c74bf2d69090af6a5714f46529abd72f3e80ea2e"
     },
     {
       "day": 4,
@@ -88,7 +88,7 @@
         67,
         75
       ],
-      "sha256": "a4bd4f906ecd1b56a6b5ff942a352acce44d0b87c313913958e1e07b3cb638f2"
+      "sha256": "c4dbd1d5f5530bcbad09106b123a730688c0e57ea433610c2a1944343a762e5f"
     },
     {
       "day": 5,
@@ -97,17 +97,14 @@
       "source_cell_end_exclusive": 85,
       "original_cell_count": 9,
       "code_cells": 4,
-      "code_cells_with_outputs": 3,
-      "original_code_cells_without_saved_execution": [
-        78
-      ],
+      "code_cells_with_outputs": 4,
+      "original_code_cells_without_saved_execution": [],
       "cleared_inherited_execution_metadata_cells": [
-        78,
         80,
         82,
         84
       ],
-      "sha256": "7c400638b9e8b12cd8a25e56c07bca1528bd8e51fd49dddcb6f2d1e5b9cff917"
+      "sha256": "00676eff22f8f1e18647a139ea6d78ae17e75da07c6595716d3ba7063435d1eb"
     }
   ],
   "report_comparisons": [
@@ -186,20 +183,14 @@
     85,
     86
   ],
-  "missing_saved_execution": [
-    {
-      "source_cell_index_zero_based": 78,
-      "day": 5,
-      "purpose": "Day 5 setup",
-      "outputs": 0,
-      "later_lab_outputs_available": true
-    }
-  ],
-  "all_notebook_code_cells_have_saved_execution": false,
+  "missing_saved_execution": [],
+  "all_notebook_code_cells_have_saved_execution": true,
   "clean_full_pipeline_rerun": false,
-  "previous_uploaded_notebook_sha256": "1da9dccfb789915523298a19af87d37ad15571bc71149fb62814aa902c910ddd",
-  "previous_notebook_available_in_git_commit": "a08f7c92f1929ea2b7b2f73842a00b8bfa30628a",
-  "update_description": "Replaced the previously unexecuted Lab 06 cell with a successful restore cell and a successful NEW quality run; all other original cell sources, outputs and execution counts are unchanged.",
+  "previous_uploaded_notebook_sha256": "cd561e17dadcf6cd3d73d8634bbfc3d76fdf1779471ad01882bb417174791a00",
+  "previous_notebook_available_in_git_commit": "32552a04f02289a7879beee6fcece745b1d9c181",
+  "update_description": "Only source cell 78 changed: a successful CURRENT Day 5 setup check after restoring the latest archive. All other original cell sources, outputs and execution counts are unchanged. This is not a rerun of Labs 07/08 or the whole pipeline.",
   "quality_rerun_notebook_evidence": "reports/review/quality_rerun_notebook.json",
-  "quality_recovery_archive_review": "reports/review/quality_recovery_archive_review.json"
+  "quality_recovery_archive_review": "reports/review/quality_recovery_archive_review.json",
+  "original_code_cells_with_saved_outputs": 40,
+  "day05_current_setup_evidence": "reports/review/day05_setup_notebook.json"
 }

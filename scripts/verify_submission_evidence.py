@@ -75,9 +75,35 @@ def verify_quality_recovery():
             'scope': 'PUBLISHED_SAVED_FILE_CHECK_NOT_NEW_PARQUET_READ_OR_ENGINE_RUN',
             'original_archive_independent_review': 'reports/review/quality_recovery_archive_review.json'}
 
+
+def verify_day05_setup():
+    saved = read_json('reports/review/day05_setup_notebook.json')
+    audit = read_json('reports/review/notebook_submission_review.json')
+    if saved['notebook_sha256'] != audit['original_sha256']:
+        raise ValueError('Day 5 setup notebook hash mismatch')
+    master = read_json(saved['notebook'])
+    cell = master['cells'][saved['source_cell_index_zero_based']]
+    output = '\n'.join(''.join(o.get('text', [])) for o in cell['outputs'])
+    printed, _ = json.JSONDecoder().raw_decode(output[output.index('{\n  "scope"'):])
+    if printed != saved['saved_setup_result']:
+        raise ValueError('Day 5 setup snapshot differs from notebook output')
+    if printed['engine_executed'] is not False or printed['labs_07_08_reexecuted'] is not False:
+        raise ValueError('Setup scope must not claim a new engine run')
+    for key, path in [('lab05_streaming', 'reports/day04_stream_latest.json'),
+                      ('lab06_quality', 'reports/quality/rerun_latest.json')]:
+        native = read_json(path)
+        expected = {'run_id': native['run_id'], 'saved_checks_passed': all(native['checks'].values())}
+        if printed['prerequisites'][key] != expected:
+            raise ValueError('Day 5 prerequisite identity mismatch: ' + key)
+    return {'saved_setup_output_verified': True,
+            'prerequisite_report_ids_match': True,
+            'labs_07_08_reexecuted': False,
+            'scope': 'SAVED_SETUP_EVIDENCE_CHECK_NOT_ENGINE_REEXECUTION'}
+
 def main():
     notebook_review = verify_notebook_extracts()
     quality_recovery = verify_quality_recovery()
+    day05_setup = verify_day05_setup()
     provenance = read_json('reports/provenance.json')
     for item in provenance['files']:
         data = (ROOT / item['repository_path']).read_bytes()
@@ -118,6 +144,7 @@ def main():
             'actual': actual, 'expected': expected, 'differences': differences,
             'submitted_notebook_integrity': notebook_review,
             'quality_recovery_artifacts': quality_recovery,
+            'day05_current_setup': day05_setup,
             'clean_full_pipeline_rerun': False,
             'status': 'ARTIFACT_CHECKS_PASSED_SUBMISSION_STILL_INCOMPLETE'}
 
