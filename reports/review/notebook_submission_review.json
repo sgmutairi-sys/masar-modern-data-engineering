@@ -88,7 +88,7 @@
         67,
         75
       ],
-      "sha256": "1c193f45bc2e880739bc6fbf885124fb74d2989f98ed62062926f921dd4d4977"
+      "sha256": "a4bd4f906ecd1b56a6b5ff942a352acce44d0b87c313913958e1e07b3cb638f2"
     },
     {
       "day": 5,
@@ -200,5 +200,6 @@
   "previous_uploaded_notebook_sha256": "1da9dccfb789915523298a19af87d37ad15571bc71149fb62814aa902c910ddd",
   "previous_notebook_available_in_git_commit": "a08f7c92f1929ea2b7b2f73842a00b8bfa30628a",
   "update_description": "Replaced the previously unexecuted Lab 06 cell with a successful restore cell and a successful NEW quality run; all other original cell sources, outputs and execution counts are unchanged.",
-  "quality_rerun_notebook_evidence": "reports/review/quality_rerun_notebook.json"
+  "quality_rerun_notebook_evidence": "reports/review/quality_rerun_notebook.json",
+  "quality_recovery_archive_review": "reports/review/quality_recovery_archive_review.json"
 }

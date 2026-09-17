@@ -37,6 +37,14 @@
     "all_code_cells_have_saved_execution": false,
     "scope": "INTEGRITY_CHECK_OF_SAVED_NOTEBOOKS_NOT_REEXECUTION"
   },
+  "quality_recovery_artifacts": {
+    "published_original_files_verified": 31,
+    "notebook_matches_native_quality_report": true,
+    "approved_snapshot_rows": 75,
+    "quarantine_snapshot_rows": 7,
+    "scope": "PUBLISHED_SAVED_FILE_CHECK_NOT_NEW_PARQUET_READ_OR_ENGINE_RUN",
+    "original_archive_independent_review": "reports/review/quality_recovery_archive_review.json"
+  },
   "clean_full_pipeline_rerun": false,
   "status": "ARTIFACT_CHECKS_PASSED_SUBMISSION_STILL_INCOMPLETE"
 }

@@ -38,8 +38,46 @@ def verify_notebook_extracts():
             'all_code_cells_have_saved_execution': not missing,
             'scope': 'INTEGRITY_CHECK_OF_SAVED_NOTEBOOKS_NOT_REEXECUTION'}
 
+
+def verify_quality_recovery():
+    review = read_json('reports/review/quality_recovery_archive_review.json')
+    run_id = review['new_run_id']
+    base = 'reports/quality/reruns/' + run_id
+    provenance = read_json(base + '/provenance.json')
+    for item in provenance['files']:
+        if hashlib.sha256((ROOT / item['repository_path']).read_bytes()).hexdigest() != item['sha256']:
+            raise ValueError('Quality recovery artifact mismatch: ' + item['repository_path'])
+    native = read_json('reports/day04_quality/' + run_id + '/quality.json')
+    notebook = read_json('notebooks/Sultan_Training_Project.ipynb')
+    snapshot = read_json('reports/review/quality_rerun_notebook.json')
+    cell = notebook['cells'][snapshot['quality_source_cell_index_zero_based']]
+    output = '\n'.join(''.join(o.get('text', [])) for o in cell['outputs'])
+    printed, _ = json.JSONDecoder().raw_decode(output[output.index('{\n  "scope"'):])
+    if printed != {k: native[k] for k in ['scope', 'checks']}:
+        raise ValueError('Notebook quality output differs from the native report')
+    approved = read_json(base + '/approved_business_rows.json')
+    lines = sorted(json.dumps(r, ensure_ascii=False, sort_keys=True, separators=(',', ':'), allow_nan=False) for r in approved['rows'])
+    digest = hashlib.sha256(('\n'.join(lines) + '\n').encode()).hexdigest()
+    if len(approved['rows']) != 75 or digest != native['approved_business_digest']:
+        raise ValueError('Approved snapshot differs from native business digest')
+    policy = read_json('reports/day04_quality/' + run_id + '/mixed_policy.json')
+    rejected = read_json(base + '/quarantine_rows.json')['rows']
+    if len(rejected) != 7:
+        raise ValueError('Quarantine snapshot count mismatch')
+    expected = {r['candidate_row']: r for r in policy['quarantine']}
+    for row in rejected:
+        source = expected[row['candidate_row']]
+        if (row['reason_codes'] != source['reason_codes'] or json.loads(row['raw_business_json']) != source['row']):
+            raise ValueError('Quarantine snapshot differs from native policy')
+    return {'published_original_files_verified': len(provenance['files']),
+            'notebook_matches_native_quality_report': True,
+            'approved_snapshot_rows': 75, 'quarantine_snapshot_rows': 7,
+            'scope': 'PUBLISHED_SAVED_FILE_CHECK_NOT_NEW_PARQUET_READ_OR_ENGINE_RUN',
+            'original_archive_independent_review': 'reports/review/quality_recovery_archive_review.json'}
+
 def main():
     notebook_review = verify_notebook_extracts()
+    quality_recovery = verify_quality_recovery()
     provenance = read_json('reports/provenance.json')
     for item in provenance['files']:
         data = (ROOT / item['repository_path']).read_bytes()
@@ -79,6 +117,7 @@ def main():
             'source_files_verified': len(source['files']), 'exports_verified': len(tables),
             'actual': actual, 'expected': expected, 'differences': differences,
             'submitted_notebook_integrity': notebook_review,
+            'quality_recovery_artifacts': quality_recovery,
             'clean_full_pipeline_rerun': False,
             'status': 'ARTIFACT_CHECKS_PASSED_SUBMISSION_STILL_INCOMPLETE'}
 

@@ -1,0 +1,924 @@
+{
+  "id": null,
+  "meta": {
+    "active_batch_definition": {
+      "batch_identifiers": {
+        "dataframe": "<DATAFRAME>"
+      },
+      "data_asset_name": "silver_trips_snapshot",
+      "data_connector_name": "fluent",
+      "datasource_name": "masar_silver"
+    },
+    "batch_markers": {
+      "ge_load_time": "20260916T180600.954712Z",
+      "pandas_data_fingerprint": "61f64ea605c37021f7b3d9dca7adeede"
+    },
+    "batch_parameters": {
+      "dataframe": "<DATAFRAME>"
+    },
+    "batch_spec": {
+      "batch_data": "PandasDataFrame"
+    },
+    "checkpoint_id": "f0e6d0a2-c78f-44c6-9cf9-9e06b048c2c6",
+    "great_expectations_version": "1.7.0",
+    "run_id": {
+      "run_name": null,
+      "run_time": "2026-09-16T18:06:00.926459+00:00"
+    },
+    "validation_id": "0d665a81-5f4c-41c7-903f-0f6dfc429407",
+    "validation_time": "2026-09-16T18:06:00.926459+00:00"
+  },
+  "results": [
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "id": "4d5da308-7544-401c-a748-15fe95fe906a",
+        "kwargs": {
+          "batch_id": "masar_silver-silver_trips_snapshot",
+          "column_list": [
+            "trip_id",
+            "driver_id",
+            "city",
+            "start_utc",
+            "end_utc",
+            "trip_date_local",
+            "fare_sar",
+            "distance_km",
+            "duration_seconds",
+            "vehicle_type",
+            "driver_rating",
+            "source_revision"
+          ]
+        },
+        "meta": {},
+        "severity": "critical",
+        "type": "expect_table_columns_to_match_ordered_list"
+      },
+      "meta": {},
+      "result": {
+        "observed_value": [
+          "trip_id",
+          "driver_id",
+          "city",
+          "start_utc",
+          "end_utc",
+          "trip_date_local",
+          "fare_sar",
+          "distance_km",
+          "duration_seconds",
+          "vehicle_type",
+          "driver_rating",
+          "source_revision"
+        ]
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "id": "b06e4825-13f6-4ae9-990e-d686e4b8cff6",
+        "kwargs": {
+          "batch_id": "masar_silver-silver_trips_snapshot",
+          "value": 75
+        },
+        "meta": {},
+        "severity": "critical",
+        "type": "expect_table_row_count_to_equal"
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 82
+      },
+      "success": false
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "id": "b488962d-95c9-4d6f-b814-74f34c92eebc",
+        "kwargs": {
+          "batch_id": "masar_silver-silver_trips_snapshot",
+          "column_A": "end_utc",
+          "column_B": "start_utc",
+          "ignore_row_if": "either_value_is_missing",
+          "or_equal": false
+        },
+        "meta": {},
+        "severity": "critical",
+        "type": "expect_column_pair_values_a_to_be_greater_than_b"
+      },
+      "meta": {},
+      "result": {
+        "element_count": 82,
+        "missing_count": 1,
+        "missing_percent": 1.2195121951219512,
+        "partial_unexpected_counts": [
+          {
+            "count": 1,
+            "value": [
+              "2026-06-01T03:00:00Z",
+              "2026-06-01T11:00:00Z"
+            ]
+          }
+        ],
+        "partial_unexpected_index_list": [
+          4
+        ],
+        "partial_unexpected_list": [
+          [
+            "2026-06-01T03:00:00Z",
+            "2026-06-01T11:00:00Z"
+          ]
+        ],
+        "unexpected_count": 1,
+        "unexpected_percent": 1.2345679012345678,
+        "unexpected_percent_nonmissing": 1.2345679012345678,
+        "unexpected_percent_total": 1.2195121951219512
+      },
+      "success": false
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "id": "ea34c5e0-e99b-4c27-a9b9-c96350b0171a",
+        "kwargs": {
+          "batch_id": "masar_silver-silver_trips_snapshot",
+          "column": "trip_id"
+        },
+        "meta": {},
+        "severity": "critical",
+        "type": "expect_column_values_to_not_be_null"
+      },
+      "meta": {},
+      "result": {
+        "element_count": 82,
+        "partial_unexpected_counts": [
+          {
+            "count": 1,
+            "value": null
+          }
+        ],
+        "partial_unexpected_index_list": [
+          0
+        ],
+        "partial_unexpected_list": [
+          null
+        ],
+        "unexpected_count": 1,
+        "unexpected_percent": 1.2195121951219512
+      },
+      "success": false
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "id": "28fc4bcd-cf54-499a-8bb7-0b1d0cbbe0a8",
+        "kwargs": {
+          "batch_id": "masar_silver-silver_trips_snapshot",
+          "column": "trip_id"
+        },
+        "meta": {},
+        "severity": "critical",
+        "type": "expect_column_values_to_be_unique"
+      },
+      "meta": {},
+      "result": {
+        "element_count": 82,
+        "missing_count": 1,
+        "missing_percent": 1.2195121951219512,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "id": "1370213c-d9f6-4242-aff4-67372288bb01",
+        "kwargs": {
+          "batch_id": "masar_silver-silver_trips_snapshot",
+          "column": "trip_id",
+          "regex": "^SYN_[A-Z0-9]+$"
+        },
+        "meta": {},
+        "severity": "critical",
+        "type": "expect_column_values_to_match_regex"
+      },
+      "meta": {},
+      "result": {
+        "element_count": 82,
+        "missing_count": 1,
+        "missing_percent": 1.2195121951219512,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "id": "95828e7e-922c-44e8-9f12-051a1924a8ec",
+        "kwargs": {
+          "batch_id": "masar_silver-silver_trips_snapshot",
+          "column": "driver_id"
+        },
+        "meta": {},
+        "severity": "critical",
+        "type": "expect_column_values_to_not_be_null"
+      },
+      "meta": {},
+      "result": {
+        "element_count": 82,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "id": "6493e388-d44c-45a6-b887-d99085c85f0f",
+        "kwargs": {
+          "batch_id": "masar_silver-silver_trips_snapshot",
+          "column": "driver_id",
+          "value_set": [
+            "SYN_D001",
+            "SYN_D002",
+            "SYN_D003",
+            "SYN_D004",
+            "SYN_D005",
+            "SYN_D006"
+          ]
+        },
+        "meta": {},
+        "severity": "critical",
+        "type": "expect_column_values_to_be_in_set"
+      },
+      "meta": {},
+      "result": {
+        "element_count": 82,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [
+          {
+            "count": 1,
+            "value": "SYN_D999"
+          }
+        ],
+        "partial_unexpected_index_list": [
+          2
+        ],
+        "partial_unexpected_list": [
+          "SYN_D999"
+        ],
+        "unexpected_count": 1,
+        "unexpected_percent": 1.2195121951219512,
+        "unexpected_percent_nonmissing": 1.2195121951219512,
+        "unexpected_percent_total": 1.2195121951219512
+      },
+      "success": false
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "id": "d248500e-1fc3-47cb-812b-1d02dbf3a0b5",
+        "kwargs": {
+          "batch_id": "masar_silver-silver_trips_snapshot",
+          "column": "city"
+        },
+        "meta": {},
+        "severity": "critical",
+        "type": "expect_column_values_to_not_be_null"
+      },
+      "meta": {},
+      "result": {
+        "element_count": 82,
+        "partial_unexpected_counts": [
+          {
+            "count": 1,
+            "value": null
+          }
+        ],
+        "partial_unexpected_index_list": [
+          6
+        ],
+        "partial_unexpected_list": [
+          null
+        ],
+        "unexpected_count": 1,
+        "unexpected_percent": 1.2195121951219512
+      },
+      "success": false
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "id": "5048db0b-c8a6-4ed9-a7a0-f033d0e18e31",
+        "kwargs": {
+          "batch_id": "masar_silver-silver_trips_snapshot",
+          "column": "city",
+          "value_set": [
+            "Riyadh",
+            "Jeddah",
+            "Dammam"
+          ]
+        },
+        "meta": {},
+        "severity": "critical",
+        "type": "expect_column_values_to_be_in_set"
+      },
+      "meta": {},
+      "result": {
+        "element_count": 82,
+        "missing_count": 1,
+        "missing_percent": 1.2195121951219512,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "id": "5024596b-e308-4b39-86d5-3a45e2ce784f",
+        "kwargs": {
+          "batch_id": "masar_silver-silver_trips_snapshot",
+          "column": "start_utc"
+        },
+        "meta": {},
+        "severity": "critical",
+        "type": "expect_column_values_to_not_be_null"
+      },
+      "meta": {},
+      "result": {
+        "element_count": 82,
+        "partial_unexpected_counts": [
+          {
+            "count": 1,
+            "value": null
+          }
+        ],
+        "partial_unexpected_index_list": [
+          3
+        ],
+        "partial_unexpected_list": [
+          null
+        ],
+        "unexpected_count": 1,
+        "unexpected_percent": 1.2195121951219512
+      },
+      "success": false
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "id": "7d058e60-18b0-4d8b-83d2-c6899060de9d",
+        "kwargs": {
+          "batch_id": "masar_silver-silver_trips_snapshot",
+          "column": "end_utc"
+        },
+        "meta": {},
+        "severity": "critical",
+        "type": "expect_column_values_to_not_be_null"
+      },
+      "meta": {},
+      "result": {
+        "element_count": 82,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "id": "0c9263a4-5830-4ce8-9e4e-0782b8a883b0",
+        "kwargs": {
+          "batch_id": "masar_silver-silver_trips_snapshot",
+          "column": "trip_date_local"
+        },
+        "meta": {},
+        "severity": "critical",
+        "type": "expect_column_values_to_not_be_null"
+      },
+      "meta": {},
+      "result": {
+        "element_count": 82,
+        "partial_unexpected_counts": [
+          {
+            "count": 1,
+            "value": null
+          }
+        ],
+        "partial_unexpected_index_list": [
+          3
+        ],
+        "partial_unexpected_list": [
+          null
+        ],
+        "unexpected_count": 1,
+        "unexpected_percent": 1.2195121951219512
+      },
+      "success": false
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "id": "ee09ba5b-4b18-4339-9237-b1aebdd2c509",
+        "kwargs": {
+          "batch_id": "masar_silver-silver_trips_snapshot",
+          "column": "fare_sar"
+        },
+        "meta": {},
+        "severity": "critical",
+        "type": "expect_column_values_to_not_be_null"
+      },
+      "meta": {},
+      "result": {
+        "element_count": 82,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "id": "2a831141-a972-4d78-9859-752ff6fec872",
+        "kwargs": {
+          "batch_id": "masar_silver-silver_trips_snapshot",
+          "column": "fare_sar",
+          "max_value": 10000000000.0,
+          "min_value": 0.0,
+          "strict_max": true
+        },
+        "meta": {},
+        "severity": "critical",
+        "type": "expect_column_values_to_be_between"
+      },
+      "meta": {},
+      "result": {
+        "element_count": 82,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [
+          {
+            "count": 1,
+            "value": -5.0
+          }
+        ],
+        "partial_unexpected_index_list": [
+          1
+        ],
+        "partial_unexpected_list": [
+          -5.0
+        ],
+        "unexpected_count": 1,
+        "unexpected_percent": 1.2195121951219512,
+        "unexpected_percent_nonmissing": 1.2195121951219512,
+        "unexpected_percent_total": 1.2195121951219512
+      },
+      "success": false
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "id": "7f3d3155-a34f-4ef7-9c70-2912c1da9908",
+        "kwargs": {
+          "batch_id": "masar_silver-silver_trips_snapshot",
+          "column": "distance_km"
+        },
+        "meta": {},
+        "severity": "critical",
+        "type": "expect_column_values_to_not_be_null"
+      },
+      "meta": {},
+      "result": {
+        "element_count": 82,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "id": "54fd825c-ed47-45ab-bfc0-9ce4314aae5c",
+        "kwargs": {
+          "batch_id": "masar_silver-silver_trips_snapshot",
+          "column": "distance_km",
+          "max_value": 10000000000.0,
+          "min_value": 0.0,
+          "strict_max": true,
+          "strict_min": true
+        },
+        "meta": {},
+        "severity": "critical",
+        "type": "expect_column_values_to_be_between"
+      },
+      "meta": {},
+      "result": {
+        "element_count": 82,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [
+          {
+            "count": 1,
+            "value": 0.0
+          }
+        ],
+        "partial_unexpected_index_list": [
+          5
+        ],
+        "partial_unexpected_list": [
+          0.0
+        ],
+        "unexpected_count": 1,
+        "unexpected_percent": 1.2195121951219512,
+        "unexpected_percent_nonmissing": 1.2195121951219512,
+        "unexpected_percent_total": 1.2195121951219512
+      },
+      "success": false
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "id": "895c1cfe-1f9c-48e7-8e71-f39bf07d4dc6",
+        "kwargs": {
+          "batch_id": "masar_silver-silver_trips_snapshot",
+          "column": "duration_seconds"
+        },
+        "meta": {},
+        "severity": "critical",
+        "type": "expect_column_values_to_not_be_null"
+      },
+      "meta": {},
+      "result": {
+        "element_count": 82,
+        "partial_unexpected_counts": [
+          {
+            "count": 1,
+            "value": null
+          }
+        ],
+        "partial_unexpected_index_list": [
+          3
+        ],
+        "partial_unexpected_list": [
+          null
+        ],
+        "unexpected_count": 1,
+        "unexpected_percent": 1.2195121951219512
+      },
+      "success": false
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "id": "bb58687f-f6c1-4841-a7d0-ea7ba78b65ef",
+        "kwargs": {
+          "batch_id": "masar_silver-silver_trips_snapshot",
+          "column": "duration_seconds",
+          "min_value": 0.0,
+          "strict_min": true
+        },
+        "meta": {},
+        "severity": "critical",
+        "type": "expect_column_values_to_be_between"
+      },
+      "meta": {},
+      "result": {
+        "element_count": 82,
+        "missing_count": 1,
+        "missing_percent": 1.2195121951219512,
+        "partial_unexpected_counts": [
+          {
+            "count": 1,
+            "value": -28800.0
+          }
+        ],
+        "partial_unexpected_index_list": [
+          4
+        ],
+        "partial_unexpected_list": [
+          -28800.0
+        ],
+        "unexpected_count": 1,
+        "unexpected_percent": 1.2345679012345678,
+        "unexpected_percent_nonmissing": 1.2345679012345678,
+        "unexpected_percent_total": 1.2195121951219512
+      },
+      "success": false
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "id": "3e00afb6-93a6-4837-b63b-898f7932cb5f",
+        "kwargs": {
+          "batch_id": "masar_silver-silver_trips_snapshot",
+          "column": "vehicle_type"
+        },
+        "meta": {},
+        "severity": "critical",
+        "type": "expect_column_values_to_not_be_null"
+      },
+      "meta": {},
+      "result": {
+        "element_count": 82,
+        "partial_unexpected_counts": [
+          {
+            "count": 1,
+            "value": null
+          }
+        ],
+        "partial_unexpected_index_list": [
+          2
+        ],
+        "partial_unexpected_list": [
+          null
+        ],
+        "unexpected_count": 1,
+        "unexpected_percent": 1.2195121951219512
+      },
+      "success": false
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "id": "d0ab29cf-c667-4b89-87c6-b2ec9d1f4031",
+        "kwargs": {
+          "batch_id": "masar_silver-silver_trips_snapshot",
+          "column": "vehicle_type",
+          "value_set": [
+            "sedan",
+            "suv"
+          ]
+        },
+        "meta": {},
+        "severity": "critical",
+        "type": "expect_column_values_to_be_in_set"
+      },
+      "meta": {},
+      "result": {
+        "element_count": 82,
+        "missing_count": 1,
+        "missing_percent": 1.2195121951219512,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "id": "be59763f-22e3-40da-9da2-d4f9875c0842",
+        "kwargs": {
+          "batch_id": "masar_silver-silver_trips_snapshot",
+          "column": "driver_rating"
+        },
+        "meta": {},
+        "severity": "critical",
+        "type": "expect_column_values_to_not_be_null"
+      },
+      "meta": {},
+      "result": {
+        "element_count": 82,
+        "partial_unexpected_counts": [
+          {
+            "count": 1,
+            "value": null
+          }
+        ],
+        "partial_unexpected_index_list": [
+          2
+        ],
+        "partial_unexpected_list": [
+          null
+        ],
+        "unexpected_count": 1,
+        "unexpected_percent": 1.2195121951219512
+      },
+      "success": false
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "id": "72f892ee-a3ee-4b38-b231-a971df605e93",
+        "kwargs": {
+          "batch_id": "masar_silver-silver_trips_snapshot",
+          "column": "driver_rating",
+          "max_value": 5.0,
+          "min_value": 0.0
+        },
+        "meta": {},
+        "severity": "critical",
+        "type": "expect_column_values_to_be_between"
+      },
+      "meta": {},
+      "result": {
+        "element_count": 82,
+        "missing_count": 1,
+        "missing_percent": 1.2195121951219512,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "id": "9a0986f8-a5a2-4275-8a41-31ae7fd1e3a4",
+        "kwargs": {
+          "batch_id": "masar_silver-silver_trips_snapshot",
+          "column": "source_revision"
+        },
+        "meta": {},
+        "severity": "critical",
+        "type": "expect_column_values_to_not_be_null"
+      },
+      "meta": {},
+      "result": {
+        "element_count": 82,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "id": "b74a2224-df72-41d0-b0a7-74d25de245cc",
+        "kwargs": {
+          "batch_id": "masar_silver-silver_trips_snapshot",
+          "column": "source_revision",
+          "min_value": 1.0
+        },
+        "meta": {},
+        "severity": "critical",
+        "type": "expect_column_values_to_be_between"
+      },
+      "meta": {},
+      "result": {
+        "element_count": 82,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    }
+  ],
+  "statistics": {
+    "evaluated_expectations": 25,
+    "success_percent": 48.0,
+    "successful_expectations": 12,
+    "unsuccessful_expectations": 13
+  },
+  "success": false,
+  "suite_name": "masar_silver_quality_v1",
+  "suite_parameters": {}
+}

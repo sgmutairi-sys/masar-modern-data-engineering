@@ -1,0 +1,225 @@
+{
+  "scope": "BYTE_IDENTICAL_COPIES_FROM_UPLOADED_QUALITY_RECOVERY_ARCHIVE",
+  "archive_filename": "day04_quality_recovery_20260916T180618912333Z.zip",
+  "archive_bytes": 23241243,
+  "archive_sha256": "93c80093b3838ff962bd302c635789164b3765928891a6ce9898fccb979dd950",
+  "files": [
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/silver/validated_day04/6801045da5ed4b1ca794844ac78b38bc/_delta_log/00000000000000000000.json",
+      "repository_path": "reports/quality/reruns/6801045da5ed4b1ca794844ac78b38bc/delta_logs/approved/00000000000000000000.json",
+      "bytes": 2748,
+      "sha256": "626d9f6b1eab602c1ac018acda8f5e462bf271a700e376fc84174ab4fa4877eb",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/staging/day04_quality/6801045da5ed4b1ca794844ac78b38bc/_delta_log/00000000000000000000.json",
+      "repository_path": "reports/quality/reruns/6801045da5ed4b1ca794844ac78b38bc/delta_logs/candidate/00000000000000000000.json",
+      "bytes": 3866,
+      "sha256": "a56d925cbfe67cb223bc5eec3fb07bf2616745f64eaf35c1436914235e4706a0",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/mini_lakehouse/quarantine/day04/6801045da5ed4b1ca794844ac78b38bc/_delta_log/00000000000000000000.json",
+      "repository_path": "reports/quality/reruns/6801045da5ed4b1ca794844ac78b38bc/delta_logs/quarantine/00000000000000000000.json",
+      "bytes": 2797,
+      "sha256": "bed960639727dff75d8772e85e8a8494eeda712e54c1cf673606f0898ce2e70d",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_mixed/checkpoint_result.json",
+      "repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_mixed/checkpoint_result.json",
+      "bytes": 406,
+      "sha256": "017879ac523c08a1f583e4f7907bda944e2a243dcd06f0beef672518c01ed58a",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_mixed/gx/checkpoints/checkpoint_mixed.json",
+      "repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_mixed/gx/checkpoints/checkpoint_mixed.json",
+      "bytes": 395,
+      "sha256": "e0063f861b404a57914643c6104b1eff208dfbfbe2448188a7de404f17c6775d",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_mixed/gx/expectations/masar_silver_quality_v1.json",
+      "repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_mixed/gx/expectations/masar_silver_quality_v1.json",
+      "bytes": 6873,
+      "sha256": "17ada739bc75766262a26961c6b6bb953ce5d1410782bc1e0c5e80f18517909b",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_mixed/gx/uncommitted/data_docs/local_site/expectations/masar_silver_quality_v1.html",
+      "repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_mixed/gx/uncommitted/data_docs/local_site/expectations/masar_silver_quality_v1.html",
+      "bytes": 35743,
+      "sha256": "47b6d79b8c1820dfb23bac426415617c55a99c424848b0ebd2a0a896c347db37",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_mixed/gx/uncommitted/data_docs/local_site/index.html",
+      "repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_mixed/gx/uncommitted/data_docs/local_site/index.html",
+      "bytes": 19522,
+      "sha256": "42b5b914ffdd280c8ce9d410892ecbb771d86d6c865f3ffd5c2966b2d9dbad46",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_mixed/gx/uncommitted/data_docs/local_site/validations/masar_silver_quality_v1/__none__/20260916T180600.926459Z/masar_silver-silver_trips_snapshot.html",
+      "repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_mixed/gx/uncommitted/data_docs/local_site/validations/masar_silver_quality_v1/__none__/20260916T180600.926459Z/masar_silver-silver_trips_snapshot.html",
+      "bytes": 70801,
+      "sha256": "416dadaf4b6f4a6d2df83c1baca8c9d2c562766c76f37e8d1efb0a7cc48a2489",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_mixed/gx/uncommitted/validations/masar_silver_quality_v1/__none__/20260916T180600.926459Z/masar_silver-silver_trips_snapshot.json",
+      "repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_mixed/gx/uncommitted/validations/masar_silver_quality_v1/__none__/20260916T180600.926459Z/masar_silver-silver_trips_snapshot.json",
+      "bytes": 25126,
+      "sha256": "cf3ad63ceab089a7cffd1101c846e51b3f1d9506d80bca8f68cf0587d71bcb1f",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_mixed/gx/validation_definitions/validate_mixed.json",
+      "repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_mixed/gx/validation_definitions/validate_mixed.json",
+      "bytes": 536,
+      "sha256": "a782173d89684352a4d17c83a4c74228593a5d6e4486660bcbbf52f7f670165c",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_rechecked/checkpoint_result.json",
+      "repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_rechecked/checkpoint_result.json",
+      "bytes": 408,
+      "sha256": "a3bbc0322f92c31e3791cc3e39644dd16428c18bb702b8addd31cd7a3847d7b0",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_rechecked/gx/checkpoints/checkpoint_rechecked.json",
+      "repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_rechecked/gx/checkpoints/checkpoint_rechecked.json",
+      "bytes": 403,
+      "sha256": "4a6940d25f5c41d201215ac141437eab10be3e1c371e3fcbe4196775511a4144",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_rechecked/gx/expectations/masar_silver_quality_v1.json",
+      "repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_rechecked/gx/expectations/masar_silver_quality_v1.json",
+      "bytes": 6873,
+      "sha256": "1105b60953cd3524caed10c2c0b3a1fad67544d8bcfacda466c6b0652d06f36e",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_rechecked/gx/uncommitted/data_docs/local_site/expectations/masar_silver_quality_v1.html",
+      "repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_rechecked/gx/uncommitted/data_docs/local_site/expectations/masar_silver_quality_v1.html",
+      "bytes": 35743,
+      "sha256": "acb5a514d1b573a59878dadd1cf69daf487fd9808ec1bfdc9a1ff9f6786d5a65",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_rechecked/gx/uncommitted/data_docs/local_site/index.html",
+      "repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_rechecked/gx/uncommitted/data_docs/local_site/index.html",
+      "bytes": 19532,
+      "sha256": "0ee54dc6324c4305b6aeaab75b523cb1ad02f3b7870c7bdb8ee7f92181f5b026",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_rechecked/gx/uncommitted/data_docs/local_site/validations/masar_silver_quality_v1/__none__/20260916T180607.388309Z/masar_silver-silver_trips_snapshot.html",
+      "repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_rechecked/gx/uncommitted/data_docs/local_site/validations/masar_silver_quality_v1/__none__/20260916T180607.388309Z/masar_silver-silver_trips_snapshot.html",
+      "bytes": 60631,
+      "sha256": "9c60fd1445ed476d01d171c8c29edf6e51b6cf5e20d1d2913fa87d4888d7123e",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_rechecked/gx/uncommitted/validations/masar_silver_quality_v1/__none__/20260916T180607.388309Z/masar_silver-silver_trips_snapshot.json",
+      "repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_rechecked/gx/uncommitted/validations/masar_silver_quality_v1/__none__/20260916T180607.388309Z/masar_silver-silver_trips_snapshot.json",
+      "bytes": 22957,
+      "sha256": "f8c3e22b2fbf987fdb06859b2fbf379505a754f473cf000777ca81407293f9bb",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_rechecked/gx/validation_definitions/validate_rechecked.json",
+      "repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_rechecked/gx/validation_definitions/validate_rechecked.json",
+      "bytes": 540,
+      "sha256": "4b190bc9366eac6008ecf375f5a50849a95072d07bea9fda5b375c45632157bc",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_trusted/checkpoint_result.json",
+      "repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_trusted/checkpoint_result.json",
+      "bytes": 406,
+      "sha256": "bf0f45d336d1af8470988ebff2a88d210cbc286beccfbaf5f4d65b0b6846de39",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_trusted/gx/checkpoints/checkpoint_trusted.json",
+      "repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_trusted/gx/checkpoints/checkpoint_trusted.json",
+      "bytes": 399,
+      "sha256": "2ee965ca42de00acbfce803e7116c4c35a972166515356c0dbd7160397c2b8a7",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_trusted/gx/expectations/masar_silver_quality_v1.json",
+      "repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_trusted/gx/expectations/masar_silver_quality_v1.json",
+      "bytes": 6873,
+      "sha256": "f07d2c471ea383ac253f524cef99a4c4a30addd1b7421104942e6622009e1816",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_trusted/gx/uncommitted/data_docs/local_site/expectations/masar_silver_quality_v1.html",
+      "repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_trusted/gx/uncommitted/data_docs/local_site/expectations/masar_silver_quality_v1.html",
+      "bytes": 35743,
+      "sha256": "4198aaff6699c0e18f64a1fad0a8416676bbb9e92e9f0d86a7fc24bdc12c9541",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_trusted/gx/uncommitted/data_docs/local_site/index.html",
+      "repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_trusted/gx/uncommitted/data_docs/local_site/index.html",
+      "bytes": 19532,
+      "sha256": "9ec2067c21f2e13fce70bfd25556bae07ccdee2cce1fd2ee73f975b56f60a2d7",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_trusted/gx/uncommitted/data_docs/local_site/validations/masar_silver_quality_v1/__none__/20260916T180543.948038Z/masar_silver-silver_trips_snapshot.html",
+      "repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_trusted/gx/uncommitted/data_docs/local_site/validations/masar_silver_quality_v1/__none__/20260916T180543.948038Z/masar_silver-silver_trips_snapshot.html",
+      "bytes": 60631,
+      "sha256": "6998ebc58b7f3f9fc2679239d2257d9cf53a0f2119d60b5dc10c7bae7ca65acf",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_trusted/gx/uncommitted/validations/masar_silver_quality_v1/__none__/20260916T180543.948038Z/masar_silver-silver_trips_snapshot.json",
+      "repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_trusted/gx/uncommitted/validations/masar_silver_quality_v1/__none__/20260916T180543.948038Z/masar_silver-silver_trips_snapshot.json",
+      "bytes": 22957,
+      "sha256": "b319f642f554b6e5b7138a808fd8e49671a248ca103ac77fe16321034090ee01",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_trusted/gx/validation_definitions/validate_trusted.json",
+      "repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_trusted/gx/validation_definitions/validate_trusted.json",
+      "bytes": 538,
+      "sha256": "9c54751bef6160fe9e1f028ffbced21253329cfd5cd010ab2077148702120441",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/mixed_policy.json",
+      "repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/mixed_policy.json",
+      "bytes": 34140,
+      "sha256": "e9039930d09feac0d617f444ab2dd06b913786c997d7c076242d7bfc811a2eb6",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/quality.json",
+      "repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/quality.json",
+      "bytes": 5556,
+      "sha256": "c79d21fc0c1fa738b8bec06cfcb06635e827b731be042ad5a19ed8da865ab44d",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/colab_recovery/20260916T180618912333Z/attempt.json",
+      "repository_path": "reports/colab_recovery/20260916T180618912333Z/attempt.json",
+      "bytes": 12451,
+      "sha256": "47eb2e8b05bf5c6a6a1c82b5dd4e4cf04e477dd22d47a52a51258875469f9d51",
+      "copied_without_modification": true
+    },
+    {
+      "archive_member": "outputs/day01_bronze_jmbv27q9/reports/day04_quality_latest.json",
+      "repository_path": "reports/quality/rerun_latest.json",
+      "bytes": 5556,
+      "sha256": "c79d21fc0c1fa738b8bec06cfcb06635e827b731be042ad5a19ed8da865ab44d",
+      "copied_without_modification": true
+    }
+  ]
+}

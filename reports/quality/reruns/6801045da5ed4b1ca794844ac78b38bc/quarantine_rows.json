@@ -1,0 +1,97 @@
+{
+  "scope": "READBACK_OF_SAVED_PARQUET_FILES_NOT_A_NEW_SPARK_RUN",
+  "source_archive": "day04_quality_recovery_20260916T180618912333Z.zip",
+  "source_archive_sha256": "93c80093b3838ff962bd302c635789164b3765928891a6ce9898fccb979dd950",
+  "source_files": [
+    {
+      "path": "mini_lakehouse/quarantine/day04/6801045da5ed4b1ca794844ac78b38bc/part-00000-86c904fe-b7ad-4770-93e8-4904efad71d3-c000.snappy.parquet",
+      "sha256": "2709a4e694ea819a5a4d80af71a97ced73af4c7024f79ac18b34c0dd5a667ae4"
+    },
+    {
+      "path": "mini_lakehouse/quarantine/day04/6801045da5ed4b1ca794844ac78b38bc/part-00001-479a0fe7-307c-49eb-9f39-21164e9608fd-c000.snappy.parquet",
+      "sha256": "3f18d1a5bdaa3e4ef300afb593c726caad689bc8889dbd2166b621aac2bed6f9"
+    }
+  ],
+  "row_count": 7,
+  "reason_counts": {
+    "MISSING_TRIP_ID": 1,
+    "INVALID_FARE": 1,
+    "UNKNOWN_DRIVER": 1,
+    "INVALID_TIMESTAMP": 1,
+    "INVALID_DURATION": 1,
+    "INVALID_DISTANCE": 1,
+    "INVALID_CITY": 1
+  },
+  "rows": [
+    {
+      "candidate_row": 1,
+      "trip_id": null,
+      "reason_codes": [
+        "MISSING_TRIP_ID"
+      ],
+      "raw_business_json": "{\"city\": \"Riyadh\", \"distance_km\": \"3.50\", \"driver_id\": \"SYN_D001\", \"driver_rating\": \"4.3\", \"duration_seconds\": 480, \"end_utc\": \"2026-06-01T03:08:00Z\", \"fare_sar\": \"18.00\", \"source_revision\": 1, \"start_utc\": \"2026-06-01T03:00:00Z\", \"trip_date_local\": \"2026-06-01\", \"trip_id\": null, \"vehicle_type\": \"sedan\"}",
+      "rule_version": "MASAR_QUALITY_V1",
+      "candidate_path": "mini_lakehouse/staging/day04_quality/6801045da5ed4b1ca794844ac78b38bc"
+    },
+    {
+      "candidate_row": 2,
+      "trip_id": "SYN_BAD002",
+      "reason_codes": [
+        "INVALID_FARE"
+      ],
+      "raw_business_json": "{\"city\": \"Riyadh\", \"distance_km\": \"3.85\", \"driver_id\": \"SYN_D002\", \"driver_rating\": \"4.4\", \"duration_seconds\": 660, \"end_utc\": \"2026-06-01T05:11:00Z\", \"fare_sar\": \"-5.00\", \"source_revision\": 1, \"start_utc\": \"2026-06-01T05:00:00Z\", \"trip_date_local\": \"2026-06-01\", \"trip_id\": \"SYN_BAD002\", \"vehicle_type\": \"suv\"}",
+      "rule_version": "MASAR_QUALITY_V1",
+      "candidate_path": "mini_lakehouse/staging/day04_quality/6801045da5ed4b1ca794844ac78b38bc"
+    },
+    {
+      "candidate_row": 3,
+      "trip_id": "SYN_BAD003",
+      "reason_codes": [
+        "UNKNOWN_DRIVER"
+      ],
+      "raw_business_json": "{\"city\": \"Riyadh\", \"distance_km\": \"4.20\", \"driver_id\": \"SYN_D999\", \"driver_rating\": null, \"duration_seconds\": 840, \"end_utc\": \"2026-06-01T07:14:00Z\", \"fare_sar\": \"20.50\", \"source_revision\": 1, \"start_utc\": \"2026-06-01T07:00:00Z\", \"trip_date_local\": \"2026-06-01\", \"trip_id\": \"SYN_BAD003\", \"vehicle_type\": null}",
+      "rule_version": "MASAR_QUALITY_V1",
+      "candidate_path": "mini_lakehouse/staging/day04_quality/6801045da5ed4b1ca794844ac78b38bc"
+    },
+    {
+      "candidate_row": 4,
+      "trip_id": "SYN_BAD004",
+      "reason_codes": [
+        "INVALID_TIMESTAMP"
+      ],
+      "raw_business_json": "{\"city\": \"Riyadh\", \"distance_km\": \"4.55\", \"driver_id\": \"SYN_D002\", \"driver_rating\": \"4.4\", \"duration_seconds\": null, \"end_utc\": \"2026-06-01T09:17:00Z\", \"fare_sar\": \"21.75\", \"source_revision\": 1, \"start_utc\": null, \"trip_date_local\": null, \"trip_id\": \"SYN_BAD004\", \"vehicle_type\": \"suv\"}",
+      "rule_version": "MASAR_QUALITY_V1",
+      "candidate_path": "mini_lakehouse/staging/day04_quality/6801045da5ed4b1ca794844ac78b38bc"
+    },
+    {
+      "candidate_row": 5,
+      "trip_id": "SYN_BAD005",
+      "reason_codes": [
+        "INVALID_DURATION"
+      ],
+      "raw_business_json": "{\"city\": \"Riyadh\", \"distance_km\": \"4.90\", \"driver_id\": \"SYN_D001\", \"driver_rating\": \"4.3\", \"duration_seconds\": -28800, \"end_utc\": \"2026-06-01T03:00:00Z\", \"fare_sar\": \"23.00\", \"source_revision\": 1, \"start_utc\": \"2026-06-01T11:00:00Z\", \"trip_date_local\": \"2026-06-01\", \"trip_id\": \"SYN_BAD005\", \"vehicle_type\": \"sedan\"}",
+      "rule_version": "MASAR_QUALITY_V1",
+      "candidate_path": "mini_lakehouse/staging/day04_quality/6801045da5ed4b1ca794844ac78b38bc"
+    },
+    {
+      "candidate_row": 6,
+      "trip_id": "SYN_BAD006",
+      "reason_codes": [
+        "INVALID_DISTANCE"
+      ],
+      "raw_business_json": "{\"city\": \"Riyadh\", \"distance_km\": \"0.00\", \"driver_id\": \"SYN_D002\", \"driver_rating\": \"4.4\", \"duration_seconds\": 1380, \"end_utc\": \"2026-06-01T13:23:00Z\", \"fare_sar\": \"24.25\", \"source_revision\": 1, \"start_utc\": \"2026-06-01T13:00:00Z\", \"trip_date_local\": \"2026-06-01\", \"trip_id\": \"SYN_BAD006\", \"vehicle_type\": \"suv\"}",
+      "rule_version": "MASAR_QUALITY_V1",
+      "candidate_path": "mini_lakehouse/staging/day04_quality/6801045da5ed4b1ca794844ac78b38bc"
+    },
+    {
+      "candidate_row": 7,
+      "trip_id": "SYN_BAD007",
+      "reason_codes": [
+        "INVALID_CITY"
+      ],
+      "raw_business_json": "{\"city\": null, \"distance_km\": \"5.60\", \"driver_id\": \"SYN_D001\", \"driver_rating\": \"4.3\", \"duration_seconds\": 1560, \"end_utc\": \"2026-06-01T15:26:00Z\", \"fare_sar\": \"25.50\", \"source_revision\": 1, \"start_utc\": \"2026-06-01T15:00:00Z\", \"trip_date_local\": \"2026-06-01\", \"trip_id\": \"SYN_BAD007\", \"vehicle_type\": \"sedan\"}",
+      "rule_version": "MASAR_QUALITY_V1",
+      "candidate_path": "mini_lakehouse/staging/day04_quality/6801045da5ed4b1ca794844ac78b38bc"
+    }
+  ]
+}

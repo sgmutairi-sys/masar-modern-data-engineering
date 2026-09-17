@@ -25,12 +25,16 @@
   "quarantine_rows_printed": 7,
   "approved_rows_printed": 75,
   "new_handoff_filename_printed": "day04_quality_recovery_20260916T180618912333Z.zip",
-  "new_handoff_received": false,
-  "new_native_quality_json_received": false,
-  "new_GX_artifacts_independently_verified": false,
-  "new_Delta_files_independently_verified": false,
+  "new_handoff_received": true,
+  "new_native_quality_json_received": true,
+  "new_GX_artifacts_independently_verified": true,
+  "new_Delta_files_independently_verified": true,
   "previous_quality_artifacts_retained_under_run_id": "876c88d851db4dd1b33d70f6ffa1b546",
   "historical_notebook_cells_preserved_exactly": true,
   "all_other_labs_rerun": false,
-  "clean_full_pipeline_rerun": false
+  "clean_full_pipeline_rerun": false,
+  "new_parquet_rows_independently_read": true,
+  "new_handoff_sha256": "93c80093b3838ff962bd302c635789164b3765928891a6ce9898fccb979dd950",
+  "new_handoff_bytes": 23241243,
+  "archive_review": "reports/review/quality_recovery_archive_review.json"
 }

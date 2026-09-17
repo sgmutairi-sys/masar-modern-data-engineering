@@ -1,0 +1,96 @@
+{
+  "scope": "INDEPENDENT_SAVED_ARCHIVE_JSON_HASH_AND_PARQUET_REVIEW_NOT_ENGINE_RERUN",
+  "archive_filename": "day04_quality_recovery_20260916T180618912333Z.zip",
+  "archive_bytes": 23241243,
+  "archive_sha256": "93c80093b3838ff962bd302c635789164b3765928891a6ce9898fccb979dd950",
+  "archive_entries": 631,
+  "archive_crc_passed": true,
+  "old_archive_entries": 504,
+  "old_files_retained_identically": 503,
+  "old_files_missing": [],
+  "old_files_changed": [
+    "outputs/day01_bronze_jmbv27q9/reports/day04_quality_latest.json"
+  ],
+  "new_files": 127,
+  "new_run_id": "6801045da5ed4b1ca794844ac78b38bc",
+  "previous_report_preserved_in_attempt_record": true,
+  "new_quality_report_matches_latest_and_attempt_record": true,
+  "notebook_scope_checks_counts_match": true,
+  "referenced_delta_file_hashes_verified": 8,
+  "delta_log_adds_match_parquet_files": true,
+  "parquet_row_counts": {
+    "approved": 75,
+    "candidate": 82,
+    "quarantine": 7
+  },
+  "delta_log_row_counts": {
+    "approved": 75,
+    "candidate": 82,
+    "quarantine": 7
+  },
+  "quarantine_reason_counts": {
+    "MISSING_TRIP_ID": 1,
+    "INVALID_FARE": 1,
+    "UNKNOWN_DRIVER": 1,
+    "INVALID_TIMESTAMP": 1,
+    "INVALID_DURATION": 1,
+    "INVALID_DISTANCE": 1,
+    "INVALID_CITY": 1
+  },
+  "quarantine_rows_match_policy": true,
+  "approved_rows_match_policy": true,
+  "candidate_rows_match_policy": true,
+  "approved_business_digest": "1321d375742d806a1f0fef82be9e2862af04f5d18f3a976792a6b1d9aa1b4383",
+  "approved_parquet_bytes_match_previous_approved_table": true,
+  "gx_phases": [
+    {
+      "phase": "trusted",
+      "rows_recorded": 75,
+      "success": true,
+      "native_statistics": {
+        "evaluated_expectations": 25,
+        "success_percent": 100.0,
+        "successful_expectations": 25,
+        "unsuccessful_expectations": 0
+      },
+      "validation_repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_trusted/gx/uncommitted/validations/masar_silver_quality_v1/__none__/20260916T180543.948038Z/masar_silver-silver_trips_snapshot.json",
+      "data_docs_hash_verified": true,
+      "execution_exceptions": 0
+    },
+    {
+      "phase": "mixed",
+      "rows_recorded": 82,
+      "success": false,
+      "native_statistics": {
+        "evaluated_expectations": 25,
+        "success_percent": 48.0,
+        "successful_expectations": 12,
+        "unsuccessful_expectations": 13
+      },
+      "validation_repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_mixed/gx/uncommitted/validations/masar_silver_quality_v1/__none__/20260916T180600.926459Z/masar_silver-silver_trips_snapshot.json",
+      "data_docs_hash_verified": true,
+      "execution_exceptions": 0
+    },
+    {
+      "phase": "rechecked",
+      "rows_recorded": 75,
+      "success": true,
+      "native_statistics": {
+        "evaluated_expectations": 25,
+        "success_percent": 100.0,
+        "successful_expectations": 25,
+        "unsuccessful_expectations": 0
+      },
+      "validation_repository_path": "reports/day04_quality/6801045da5ed4b1ca794844ac78b38bc/gx_rechecked/gx/uncommitted/validations/masar_silver_quality_v1/__none__/20260916T180607.388309Z/masar_silver-silver_trips_snapshot.json",
+      "data_docs_hash_verified": true,
+      "execution_exceptions": 0
+    }
+  ],
+  "published_original_files": 31,
+  "new_GX_artifacts_independently_verified": true,
+  "new_Delta_files_independently_verified": true,
+  "new_parquet_rows_independently_read": true,
+  "spark_kafka_dbt_rerun_by_reviewer": false,
+  "complete_course_rerun": false,
+  "status": "QUALITY_RECOVERY_ARTIFACTS_VERIFIED"
+}
