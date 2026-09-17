@@ -1,5 +1,6 @@
 """Restore Sultan's saved workspace and prepare the course's quality runtime."""
 from pathlib import Path, PurePosixPath
+import argparse
 import hashlib
 import json
 import os
@@ -16,15 +17,21 @@ VENV = Path('/content/masar-course-py311')
 PYTHON = VENV / 'bin/python'
 COMMIT = 'a08f7c92f1929ea2b7b2f73842a00b8bfa30628a'
 ARCHIVE_SHA256 = '861ecbd7c0fc665d42c2b1749f693353b214ba32636151c17b31811472575bef'
+VERIFIED_ARCHIVES = {
+    ARCHIVE_SHA256: 'day05_handoff.zip',
+    '93c80093b3838ff962bd302c635789164b3765928891a6ce9898fccb979dd950':
+        'day04_quality_recovery_20260916T180618912333Z.zip',
+}
 
 
 def run(args, **kwargs):
     return subprocess.run([str(a) for a in args], check=True, **kwargs)
 
 
-def restore_outputs(archive, root):
+def restore_outputs(archive, root, expected_sha256=ARCHIVE_SHA256):
     """Check every member and all conflicts before creating any output file."""
-    if hashlib.sha256(archive.read_bytes()).hexdigest() != ARCHIVE_SHA256:
+    if (expected_sha256 not in VERIFIED_ARCHIVES
+            or hashlib.sha256(archive.read_bytes()).hexdigest() != expected_sha256):
         raise RuntimeError('ملف المخرجات مختلف عن نسختك التي تحققنا منها.')
     root = root.resolve()
     plan = []
@@ -76,9 +83,19 @@ def java17():
     return None
 
 
-def main():
+def main(archive_path=None, check_day05=False):
     if not Path('/content').is_dir():
         raise RuntimeError('شغّل هذه الخلية داخل Google Colab.')
+
+    archive = Path(archive_path).resolve() if archive_path else BUNDLE / 'day05_handoff.zip'
+    if not archive.is_file():
+        raise RuntimeError('ارفع ملف المخرجات الذي حددناه أولًا، ثم أعد تشغيل الخلية.')
+    archive_sha = hashlib.sha256(archive.read_bytes()).hexdigest()
+    if archive_sha not in VERIFIED_ARCHIVES:
+        raise RuntimeError('الملف المرفوع ليس إحدى نسختي المخرجات اللتين تحققنا منهما.')
+    if check_day05 and not (BUNDLE / 'check_day05_setup.py').is_file():
+        raise RuntimeError('سكربت فحص اليوم الخامس غير موجود. انسخ خلية الاستعادة كاملة.')
+    print('الأرشيف المعتمد:', VERIFIED_ARCHIVES[archive_sha], flush=True)
 
     print('1/4 تنزيل كود مشروعك من GitHub...', flush=True)
     if not ROOT.exists():
@@ -92,7 +109,7 @@ def main():
         raise RuntimeError('توجد نسخة أخرى من المشروع. أوقفت الاستعادة للحفاظ على تعديلاتك.')
 
     print('2/4 استعادة مخرجاتك السابقة...', flush=True)
-    count = restore_outputs(BUNDLE / 'day05_handoff.zip', ROOT)
+    count = restore_outputs(archive, ROOT, expected_sha256=archive_sha)
     print('الملفات المستعادة:', count, flush=True)
 
     print('3/4 تجهيز Python 3.11 وJava 17 ومتطلبات فحص الجودة...', flush=True)
@@ -148,13 +165,22 @@ print(json.dumps({'root': str(root), 'work': str(work), 'python': sys.version.sp
     result = subprocess.check_output([str(PYTHON), '-c', check, str(ROOT)], env=env, text=True)
     state = json.loads(result.strip())
     state.update({'python_executable': str(PYTHON), 'java_home': java_home,
-                  'source_commit': COMMIT, 'restored_archive_sha256': ARCHIVE_SHA256,
+                  'source_commit': COMMIT, 'restored_archive_sha256': archive_sha,
+                  'restored_archive_filename': VERIFIED_ARCHIVES[archive_sha],
                   'scope': 'RESTORED_WORKSPACE_AND_DEPENDENCIES_ONLY_ENGINE_NOT_RUN'})
     (BUNDLE / 'runtime.json').write_text(json.dumps(state, indent=2) + '\n')
     print('Python:', state['python'], flush=True)
     print('مساحة العمل:', state['work'], flush=True)
-    print('✅ تمت الاستعادة والتهيئة. شغّل الآن كود فحص الجودة الجديد.', flush=True)
+    if check_day05:
+        print('تمت الاستعادة؛ جارٍ فحص تهيئة اليوم الخامس...', flush=True)
+        run([PYTHON, '-u', BUNDLE / 'check_day05_setup.py'], env=env)
+    else:
+        print('✅ تمت الاستعادة والتهيئة.', flush=True)
 
 
 if __name__ == '__main__':
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--archive', type=Path, help='A previously verified saved-workspace ZIP.')
+    parser.add_argument('--day05', action='store_true', help='Run the read-only current Day 5 setup check after restoration.')
+    args = parser.parse_args()
+    main(archive_path=args.archive, check_day05=args.day05)
